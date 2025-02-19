@@ -1,6 +1,6 @@
 from Music2Emotion.music2emo import Music2emo
 
-input_audio = "inference/input/test.mp3"
+input_audio="songs\mp3\a-ha - Take On Me (Official Video) [Remastered in 4K]-djV11Xbc914.mp3"
 
 music2emo = Music2emo()
 output_dic = music2emo.predict(input_audio)
