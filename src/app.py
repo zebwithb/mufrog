@@ -1,6 +1,7 @@
 import sys
 import os
 import torchaudio
+import torch
 
 print("Current working directory: ", os.getcwd())
 sys.path.append("..")
@@ -34,6 +35,14 @@ def extract_audio_segment(input_path, start_time, duration, output_path):
         return None
 
 # Analyze full audio
+gpu_available = torch.cuda.is_available()
+print(f'CUDA Available: {gpu_available}')
+if gpu_available:
+    print(f'Using GPU: {torch.cuda.get_device_name(0)}')
+else:
+    print('GPU Acceleration PATH not set correctly in environment variables. Use CUDA 12.6')
+    sys.exit("Exiting, as GPU Acceleration is not available.")
+
 print("Analyzing full audio...")
 output_dic_full = music2emo.predict(input_audio)
 valence_full = output_dic_full["valence"]

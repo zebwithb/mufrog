@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8227ca69ceff31f7e5b71bc558bb9ca1064281a8f3b1c855aa6d15e12deaee0c"
+            "sha256": "ddec7656758ab5548141a7529bad42395acd93531bd752f14369b6d2e50ce3bc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,18 +15,13 @@
                 "verify_ssl": true
             },
             {
-                "name": "downloadpytorch",
+                "name": "pytorch",
                 "url": "https://download.pytorch.org/whl/cu126",
                 "verify_ssl": true
             },
             {
-                "name": "downloadpytorch",
-                "url": "https://download.pytorch.org/whl/cu126",
-                "verify_ssl": true
-            },
-            {
-                "name": "downloadpytorch",
-                "url": "https://download.pytorch.org/whl/cu126",
+                "name": "github",
+                "url": "git+https://github.com/mir-evaluation/mir_eval.git@1fed5327e2a65c3294579beafa03a6498b4da3d0",
                 "verify_ssl": true
             }
         ]
@@ -1456,11 +1451,11 @@
         },
         "mir-eval": {
             "hashes": [
-                "sha256:5a9ca1cdfbc989fb19a7ea6fa294f3da75922fe010f8c6ed5d8f9ecf63f50eef",
-                "sha256:8406708cd4773a0b778fe058a95d76365d28666b150563b3599ef823ac2082e8"
+                "sha256:114cda33d8e17408c170598e0b36ed0d71ff4a2fee8eaf9e165b58ecf1c87170",
+                "sha256:141a3e1193276889fc32e911547e73dcb3e829ee8cfea60f7bbcd633c0792569"
             ],
             "index": "pypi",
-            "version": "==0.8.0"
+            "version": "==0.8.2"
         },
         "more-itertools": {
             "hashes": [
@@ -1649,12 +1644,12 @@
         },
         "music21": {
             "hashes": [
-                "sha256:0cf4c67da2062ec164037280580d51ed06b58e84f78afc8d00f088c2bff74f4a",
-                "sha256:486763ad31750fe60035242fb054160a278b9d9bc922406795e887fff6809f0b"
+                "sha256:70e4af1d7e73fd5be803c98fbd0d8a9c994e38b9d46fd7475d69212156cf785d",
+                "sha256:f888a84f7abfa6e727b7028cdbf7b7bd9fa746009b766ca604fb749a67078d1a"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==9.3.0"
+            "version": "==9.5.0"
         },
         "networkx": {
             "hashes": [
@@ -2532,11 +2527,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6",
-                "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3"
+                "sha256:3bc32c0b84c643299ca94e77f834730f126efd621de0cc1de64119e0e17dab1f",
+                "sha256:65fb779a8f28895242923582eadca2337285f0891c2c9e160754df917c3d2530"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==75.8.0"
+            "version": "==75.8.1"
         },
         "six": {
             "hashes": [
@@ -2912,7 +2907,7 @@
                 "sha256:eccdaa0908f91321f34d37d7286843ff7b32a8e187fdc61c97f8a895e636b19f",
                 "sha256:eda7768f0a2ad9da3513abf60ff5c13049e7e2ec74ed4cfcd4736a8523ab1f89"
             ],
-            "index": "downloadpytorch",
+            "index": "pytorch",
             "markers": "python_full_version >= '3.9.0'",
             "version": "==2.6.0+cu126"
         },
@@ -2929,7 +2924,7 @@
                 "sha256:e31d607c103bea151c08fd180a86835b9bd3aab813288a8a4473a2c7b5f69eaf",
                 "sha256:ee238faa6b8ed2e54946e2240b76dcf7377cfeee2a592ea2d36a850c0f41ec13"
             ],
-            "index": "downloadpytorch",
+            "index": "pytorch",
             "version": "==2.6.0+cu126"
         },
         "torchmetrics": {
@@ -2953,7 +2948,8 @@
                 "sha256:ec1887ed3c842aa48308ea00f1442c683f7d351fb14e94b76c2072678d06ac92",
                 "sha256:ed7912ed64c110792401273ee8a9dda81fc2ef53a66a3f7b25238bc52900a987"
             ],
-            "index": "downloadpytorch",
+            "index": "pytorch",
+            "markers": "python_version >= '3.9'",
             "version": "==0.21.0+cu126"
         },
         "tornado": {
