@@ -1,0 +1,3 @@
+[submodule "Music2Emotion"]
+	url = https://github.com/Zeb-Kuyper/Music2Emotion
+	path = Music2Emotion
