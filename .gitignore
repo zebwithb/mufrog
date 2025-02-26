@@ -1,6 +1,7 @@
 #local
 venv/
 .vscode/
+src/TODO.md
 #external
 src/scripts/songs/*
 src/temp_out/*

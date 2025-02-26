@@ -1,22 +1,31 @@
-import sys
-import os
-import json
+"""
+Music Emotion Recognition Application
 
+This module analyzes audio files to extract emotional characteristics and audio features.
+It uses deep learning models to predict valence, arousal, and mood tags from music.
+The application supports analyzing full audio files and shorter segments for comparison.
+"""
+
+# Standard library imports
+import os
+import sys
+from pathlib import Path
+
+# Third-party imports
 import librosa
 import numpy as np
-from pathlib import Path
 from pydub import AudioSegment
-
 import torch
 import torchaudio
 
-#debug purposes
+# Debug purposes - keep before Music2Emotion import
 print("Current working directory: ", os.getcwd())
 sys.path.append("..")
 
+# Local application imports
 from Music2Emotion.music2emo import Music2emo
 
-# Replace the empty input_audio line with:
+
 def get_first_mp3():
     """Get the first MP3 file from the songs directory."""
     mp3_dir = Path(__file__).parent / "scripts" / "songs" / "mp3"
@@ -198,9 +207,9 @@ def main():
         display_analysis_results("🎼 Full Audio Analysis", full_audio_features, output_dic_full)
         
         # 5-second segment analysis
-        output_5s = "scripts/songs/mp3/take_on_me_5s.mp3"
-        segment_5s_features = extract_audio_features(input_audio, 0, 5, output_5s)
-        output_dic_5s = music2emo.predict(output_5s)
+        output_15s = "scripts/songs/mp3/take_on_me_5s.mp3"
+        segment_5s_features = extract_audio_features(input_audio, 0, 15, output_15s)
+        output_dic_5s = music2emo.predict(output_15s)
         display_analysis_results("🎵 5-Second Segment Analysis", segment_5s_features, output_dic_5s)
         
         # 30-second segment analysis
