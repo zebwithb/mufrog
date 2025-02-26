@@ -10,6 +10,9 @@ The application supports analyzing full audio files and shorter segments for com
 import os
 import sys
 from pathlib import Path
+import json
+import time
+from typing import Dict, Any
 
 # Third-party imports
 import librosa
@@ -17,6 +20,7 @@ import numpy as np
 from pydub import AudioSegment
 import torch
 import torchaudio
+from tqdm import tqdm
 
 # Debug purposes - keep before Music2Emotion import
 print("Current working directory: ", os.getcwd())
@@ -53,6 +57,10 @@ def extract_audio_features(input_path, start_time=None, duration=None, output_pa
     Returns:
         Dictionary containing audio features and path to extracted segment if provided
     """
+    # TODO - Analyze segments of audio files to target specific parts of the song
+    # TODO - Audio analysis visuals
+    # TODO - Concurrent processing of audio files within constraints of hardware
+    
     try:
         # Load with pydub for MP3 handling (preserves format for MERT)
         audio = AudioSegment.from_file(input_path)
@@ -191,35 +199,132 @@ def display_analysis_results(title, audio_features, emotion_output):
     for mood in emotion_output['predicted_moods']:
         print(f"   - {mood['mood']}: {mood['score']:.4f}")
 
+def analyze_mp3_collection(
+    mp3_dir: Path,
+    metadata_path: Path,
+    output_path: Path
+) -> None:
+    """
+    Analyze all MP3s and update metadata with emotion/audio features.
+    
+    Args:
+        mp3_dir: Directory containing MP3 files
+        metadata_path: Path to metadata JSON file
+        output_path: Where to save updated metadata
+    """
+    try:
+        # Check GPU availability first
+        check_gpu_availability()
+        
+        # Load metadata
+        with open(metadata_path) as f:
+            metadata = json.load(f)
+        
+        # Initialize model
+        music2emo = Music2emo()
+        print("Initialized Music2Emotion model")
+        
+        # Create lookup dictionary
+        metadata_lookup = {item.get("title", ""): item for item in metadata}
+        
+        # Process each MP3
+        print(f"\nProcessing {len(list(mp3_dir.glob('*.mp3')))} MP3 files...")
+        for mp3_path in tqdm(list(mp3_dir.glob("*.mp3"))):
+            try:
+                # Get metadata entry
+                title = mp3_path.stem
+                if title not in metadata_lookup:
+                    print(f"\nWarning: No metadata found for {title}")
+                    continue
+                
+                # Extract features
+                audio_features = extract_audio_features(str(mp3_path))
+                if not audio_features:
+                    print(f"\nError extracting features from {title}")
+                    continue
+                
+                # Get emotion predictions
+                emotion_output = music2emo.predict(str(mp3_path))
+                
+                # Update metadata
+                metadata_lookup[title].update({
+                    "valence": float(emotion_output["valence"]),
+                    "arousal": float(emotion_output["arousal"]),
+                    "predicted_moods": emotion_output["predicted_moods"],
+                    "audio_features": audio_features["features"]
+                })
+                
+                # Add small delay to prevent overload
+                time.sleep(0.1)
+                
+            except Exception as e:
+                print(f"\nError processing {mp3_path.name}: {str(e)}")
+                continue
+        
+        # Save updated metadata
+        with open(output_path, 'w') as f:
+            json.dump(metadata, f, indent=2)
+            
+        print(f"\nAnalysis complete. Results saved to {output_path}")
+        
+    except GPUNotAvailableError as e:
+        print(str(e))
+        return
+    except Exception as e:
+        print(f"An unexpected error occurred: {str(e)}")
+        return
+
 # Analyze full audio
 def main():
+    """Main function with support for single or batch analysis."""
     try:
         check_gpu_availability()
-        input_audio = get_first_mp3()
-        music2emo = Music2emo()
-        # Analyze full audio with features
-        print("\nAnalyzing audio segments...")
-        print("=" * 50)
         
-        # Full audio analysis
-        full_audio_features = extract_audio_features(input_audio)
-        output_dic_full = music2emo.predict(input_audio)
-        display_analysis_results("🎼 Full Audio Analysis", full_audio_features, output_dic_full)
+        # Ask user for analysis mode
+        print("\nSelect analysis mode:")
+        print("1. Single song analysis")
+        print("2. Batch analysis of all MP3s")
+        mode = input("Enter mode (1 or 2): ")
         
-        # 5-second segment analysis
-        output_15s = "scripts/songs/mp3/take_on_me_5s.mp3"
-        segment_5s_features = extract_audio_features(input_audio, 0, 15, output_15s)
-        output_dic_5s = music2emo.predict(output_15s)
-        display_analysis_results("🎵 5-Second Segment Analysis", segment_5s_features, output_dic_5s)
+        if mode == "1":
+            input_audio = get_first_mp3()
+            music2emo = Music2emo()
+            # Analyze full audio with features
+            print("\nAnalyzing audio segments...")
+            print("=" * 50)
+            
+            # Full audio analysis
+            full_audio_features = extract_audio_features(input_audio)
+            output_dic_full = music2emo.predict(input_audio)
+            display_analysis_results("🎼 Full Audio Analysis", full_audio_features, output_dic_full)
+            
+            # 5-second segment analysis
+            output_15s = "scripts/songs/mp3/take_on_me_5s.mp3"
+            segment_5s_features = extract_audio_features(input_audio, 0, 15, output_15s)
+            output_dic_5s = music2emo.predict(output_15s)
+            display_analysis_results("🎵 5-Second Segment Analysis", segment_5s_features, output_dic_5s)
+            
+            # 30-second segment analysis
+            output_30s = "scripts/songs/mp3/take_on_me_30s.mp3"
+            segment_30s_features = extract_audio_features(input_audio, 0, 30, output_30s)
+            output_dic_30s = music2emo.predict(output_30s)
+            display_analysis_results("🎵 30-Second Segment Analysis", segment_30s_features, output_dic_30s)
+            
+            print("\n" + "=" * 50)
+            print("Analysis complete!")
         
-        # 30-second segment analysis
-        output_30s = "scripts/songs/mp3/take_on_me_30s.mp3"
-        segment_30s_features = extract_audio_features(input_audio, 0, 30, output_30s)
-        output_dic_30s = music2emo.predict(output_30s)
-        display_analysis_results("🎵 30-Second Segment Analysis", segment_30s_features, output_dic_30s)
+        elif mode == "2":
+            # Batch analysis
+            base_dir = Path(__file__).parent
+            mp3_dir = base_dir / "scripts" / "songs" / "mp3"
+            metadata_path = base_dir / "scripts" / "songs" / "all_cleaned_metadata.json"
+            output_path = base_dir / "scripts" / "songs" / "analyzed_metadata.json"
+            
+            analyze_mp3_collection(mp3_dir, metadata_path, output_path)
         
-        print("\n" + "=" * 50)
-        print("Analysis complete!")
+        else:
+            print("Invalid mode selected")
+            return 1
         
     except GPUNotAvailableError as e:
         print(str(e))
