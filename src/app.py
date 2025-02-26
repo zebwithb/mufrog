@@ -1,15 +1,115 @@
 import sys
 import os
-import torchaudio
-import torch
+import json
 
+import librosa
+import numpy as np
+from pathlib import Path
+from pydub import AudioSegment
+
+import torch
+import torchaudio
+
+#debug purposes
 print("Current working directory: ", os.getcwd())
 sys.path.append("..")
+
 from Music2Emotion.music2emo import Music2emo
 
-input_audio = "scripts/songs/mp3/a-ha - Take On Me (Official Video) [Remastered in 4K]-djV11Xbc914.mp3"
+# Replace the empty input_audio line with:
+def get_first_mp3():
+    """Get the first MP3 file from the songs directory."""
+    mp3_dir = Path(__file__).parent / "scripts" / "songs" / "mp3"
+    try:
+        # Get first MP3 file
+        first_mp3 = next(mp3_dir.glob("*.mp3"))
+        if not first_mp3.is_file():
+            raise FileNotFoundError("No MP3 files found in the songs directory")
+        print(f"Selected audio file: {first_mp3.name}")
+        return str(first_mp3)
+    except (StopIteration, FileNotFoundError) as e:
+        print(f"Error finding MP3 file: {str(e)}")
+        sys.exit(1)
 
-music2emo = Music2emo()
+def extract_audio_features(input_path, start_time=None, duration=None, output_path=None):
+    """
+    Extract audio segment and high-level features from an audio file.
+    
+    Args:
+        input_path: Path to the audio file
+        start_time: Start time in seconds (optional)
+        duration: Duration in seconds (optional)
+        output_path: Path to save the extracted segment (optional)
+        
+    Returns:
+        Dictionary containing audio features and path to extracted segment if provided
+    """
+    try:
+        # Load with pydub for MP3 handling (preserves format for MERT)
+        audio = AudioSegment.from_file(input_path)
+        
+        # Extract segment if specified
+        if start_time is not None and duration is not None:
+            # Convert to milliseconds for pydub
+            start_ms = int(start_time * 1000)
+            duration_ms = int(duration * 1000)
+            segment = audio[start_ms:start_ms + duration_ms]
+            
+            if output_path:
+                # Ensure directory exists
+                os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+                segment.export(output_path, format="mp3")
+                print(f"Extracted audio segment: {output_path}")
+        else:
+            segment = audio
+            
+        # Load with librosa for feature extraction
+        y, sr = librosa.load(
+            input_path, 
+            offset=start_time, 
+            duration=duration) if start_time is not None else librosa.load(input_path)
+        
+        # Extract features
+        features = {}
+        
+        # 1. Tempo/BPM
+        tempo, _ = librosa.beat.beat_track(y=y, sr=sr)
+        features['bpm'] = float(tempo)
+        
+        # 2. Spectral centroid (brightness)
+        spectral_centroids = librosa.feature.spectral_centroid(y=y, sr=sr)[0]
+        features['spectral_centroid_mean'] = float(np.mean(spectral_centroids))
+        
+        # 3. RMS energy
+        rms = librosa.feature.rms(y=y)[0]
+        features['rms_energy_mean'] = float(np.mean(rms))
+        
+        # 4. Zero-crossing rate (noisiness/harshness)
+        zcr = librosa.feature.zero_crossing_rate(y)[0]
+        features['zero_crossing_rate_mean'] = float(np.mean(zcr))
+        
+        # 5. Spectral contrast (difference between peaks and valleys)
+        contrast = librosa.feature.spectral_contrast(y=y, sr=sr)
+        features['spectral_contrast_mean'] = float(np.mean(contrast))
+        
+        # 6. Chromagram (harmony/key distribution)
+        chroma = librosa.feature.chroma_stft(y=y, sr=sr)
+        features['chroma_mean'] = [float(np.mean(c)) for c in chroma]
+        
+        # Format output
+        result = {
+            'features': features,
+            'duration': len(segment) / 1000  # in seconds
+        }
+        
+        if output_path:
+            result['output_path'] = output_path
+            
+        return result
+        
+    except Exception as e:
+        print(f"Audio extraction/analysis error: {str(e)}")
+        return None
 
 class GPUNotAvailableError(Exception):
     """Exception raised when GPU acceleration is required but not available."""
@@ -60,74 +160,57 @@ def check_gpu_availability():
     )
     raise GPUNotAvailableError(error_msg)
 
+def display_analysis_results(title, audio_features, emotion_output):
+    """Helper function to display analysis results in a consistent format."""
+    print(f"\n{title}")
+    print("-" * len(title))
+    
+    # Audio Features
+    print("🎵 Audio Features:")
+    print(f"   - BPM: {audio_features['features']['bpm']:.1f}")
+    print(f"   - Brightness: {audio_features['features']['spectral_centroid_mean']:.2f}")
+    print(f"   - Energy: {audio_features['features']['rms_energy_mean']:.4f}")
+    print(f"   - Duration: {audio_features['duration']:.2f}s")
+    
+    # Emotion Analysis
+    print("\n🎭 Emotion Analysis:")
+    print(f"   - Valence: {emotion_output['valence']:.2f} (Scale: 1-9)")
+    print(f"   - Arousal: {emotion_output['arousal']:.2f} (Scale: 1-9)")
+    
+    # Top Predicted Moods
+    print("\n✨ Top Predicted Moods:")
+    for mood in emotion_output['predicted_moods']:
+        print(f"   - {mood['mood']}: {mood['score']:.4f}")
+
 # Analyze full audio
 def main():
     try:
         check_gpu_availability()
+        input_audio = get_first_mp3()
+        music2emo = Music2emo()
+        # Analyze full audio with features
+        print("\nAnalyzing audio segments...")
+        print("=" * 50)
         
-        # Your existing code here
-        print("Analyzing full audio...")
+        # Full audio analysis
+        full_audio_features = extract_audio_features(input_audio)
         output_dic_full = music2emo.predict(input_audio)
-        valence_full = output_dic_full["valence"]
-        arousal_full = output_dic_full["arousal"]
-        predicted_moods_full = output_dic_full["predicted_moods"]
-
-        # Extract and analyze 5-second segment
-        print("Extracting and analyzing 5-second segment...")
+        display_analysis_results("🎼 Full Audio Analysis", full_audio_features, output_dic_full)
+        
+        # 5-second segment analysis
         output_5s = "scripts/songs/mp3/take_on_me_5s.mp3"
-        extract_audio_segment(input_audio, 0, 5, output_5s)
+        segment_5s_features = extract_audio_features(input_audio, 0, 5, output_5s)
         output_dic_5s = music2emo.predict(output_5s)
-        valence_5s = output_dic_5s["valence"]
-        arousal_5s = output_dic_5s["arousal"]
-        predicted_moods_5s = output_dic_5s["predicted_moods"]
-
-        # Extract and analyze 30-second segment
-        print("Extracting and analyzing 30-second segment...")
+        display_analysis_results("🎵 5-Second Segment Analysis", segment_5s_features, output_dic_5s)
+        
+        # 30-second segment analysis
         output_30s = "scripts/songs/mp3/take_on_me_30s.mp3"
-        extract_audio_segment(input_audio, 0, 30, output_30s)
+        segment_30s_features = extract_audio_features(input_audio, 0, 30, output_30s)
         output_dic_30s = music2emo.predict(output_30s)
-        valence_30s = output_dic_30s["valence"]
-        arousal_30s = output_dic_30s["arousal"]
-        predicted_moods_30s = output_dic_30s["predicted_moods"]
-
-        # --- Extended Analysis Output ---
-        print("\n🎵 **Music Emotion Recognition Results - Temporal Comparison** 🎵")
-        print("-" * 50)
-
-        print("\n**Full Audio Analysis:**")
-        print("-----------------------")
-        if predicted_moods_full:
-            print("🎭 **Predicted Mood Tags (with Probabilities):**")
-            for mood_data in predicted_moods_full:
-                print(f"   - {mood_data['mood']}: {mood_data['score']:.4f}")
-        else:
-            print("🎭 **Predicted Mood Tags: None**")
-        print(f"💖 **Valence:** {valence_full:.2f} (Scale: 1-9)")
-        print(f"⚡ **Arousal:** {arousal_full:.2f} (Scale: 1-9)")
-
-        print("\n**5-Second Segment Analysis:**")
-        print("-----------------------------")
-        if predicted_moods_5s:
-            print("🎭 **Predicted Mood Tags (with Probabilities):**")
-            for mood_data in predicted_moods_5s:
-                print(f"   - {mood_data['mood']}: {mood_data['score']:.4f}")
-        else:
-            print("🎭 **Predicted Mood Tags: None**")
-        print(f"💖 **Valence:** {valence_5s:.2f} (Scale: 1-9)")
-        print(f"⚡ **Arousal:** {arousal_5s:.2f} (Scale: 1-9)")
-
-        print("\n**30-Second Segment Analysis:**")
-        print("------------------------------")
-        if predicted_moods_30s:
-            print("🎭 **Predicted Mood Tags (with Probabilities):**")
-            for mood_data in predicted_moods_30s:
-                print(f"   - {mood_data['mood']}: {mood_data['score']:.4f}")
-        else:
-            print("🎭 **Predicted Mood Tags: None**")
-        print(f"💖 **Valence:** {valence_30s:.2f} (Scale: 1-9)")
-        print(f"⚡ **Arousal:** {arousal_30s:.2f} (Scale: 1-9)")
-
-        print("-" * 50)
+        display_analysis_results("🎵 30-Second Segment Analysis", segment_30s_features, output_dic_30s)
+        
+        print("\n" + "=" * 50)
+        print("Analysis complete!")
         
     except GPUNotAvailableError as e:
         print(str(e))
