@@ -137,5 +137,5 @@ def main():
         return 1
     return 0
 
-print("Analyzing full audio...")
-output_dic_full = music2emo.predict(input_audio)
+if __name__ == "__main__":
+    sys.exit(main())
