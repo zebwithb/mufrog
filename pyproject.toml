@@ -138,12 +138,11 @@ dependencies = [
     "termcolor==2.5.0",
     "tflite-support==0.1.0a1",
     "threadpoolctl==3.5.0",
-    "tokenizers==0.19.1",
     "toml==0.10.2",
     "tornado==6.4.2",
     "tqdm==4.66.5",
     "traitlets==5.14.3",
-    "transformers==4.44.0",
+    "transformers==4.49.0",
     "typing-extensions==4.12.2",
     "tzdata==2025.1",
     "urllib3==2.3.0",
@@ -156,7 +155,6 @@ dependencies = [
     "nnaudio",
     "pytorch-lightning",
     "torch==2.6.0+cu126",
-    "torchvision==0.21.0+cu126",
     "torchaudio==2.6.0+cu126",
     "mir-eval",
     "music2latent",
@@ -176,3 +174,7 @@ name = "pytorch-cu126"
 url = "https://download.pytorch.org/whl/cu126"
 explicit = true
 
+[[tool.uv.index]]
+name = "vllm-nightly"
+url = "https://wheels.vllm.ai/nightly"
+explicit = true

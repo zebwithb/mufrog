@@ -3,11 +3,13 @@
 .vscode/
 src/TODO.md
 archive/
+scripts/songs/mp3/
 #external
-src/scripts/songs/*
-src/temp_out/*
-Music2Emotion/temp_out/*
+src/scripts/songs/
+src/temp_out/
+Music2Emotion/temp_out/
 #pylint analysis
 src/pylint2.txt
 src/pylint1.txt
 src/standard.rc
+
