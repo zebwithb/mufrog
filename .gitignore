@@ -1,3 +1,5 @@
 venv/
 .vscode/
 src/scripts/songs/*
+src/temp_out/*
+Music2Emotion/temp_out/*
