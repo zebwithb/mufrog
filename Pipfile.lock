@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ddec7656758ab5548141a7529bad42395acd93531bd752f14369b6d2e50ce3bc"
+            "sha256": "4c3a5a364291e3a1805d596b3121666a37cc947d45746c9226c5c92d4609afe6"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1651,6 +1651,14 @@
             "markers": "python_version >= '3.10'",
             "version": "==9.5.0"
         },
+        "music2latent": {
+            "hashes": [
+                "sha256:1dfc23299bbb55d68e3a9e6394af359a7155c027c1d836d2ba78ebccd3ae3cbe",
+                "sha256:f5edfe04538261ee1b61723328423f306c8e611d3ecdb9c528a8056fb7f96413"
+            ],
+            "index": "pypi",
+            "version": "==0.1.6"
+        },
         "networkx": {
             "hashes": [
                 "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1",
@@ -2530,6 +2538,7 @@
                 "sha256:3bc32c0b84c643299ca94e77f834730f126efd621de0cc1de64119e0e17dab1f",
                 "sha256:65fb779a8f28895242923582eadca2337285f0891c2c9e160754df917c3d2530"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.9'",
             "version": "==75.8.1"
         },
@@ -3055,6 +3064,7 @@
                 "sha256:661e1abd9198507b1409a20c02106d9670b2576e916d58f520316666abca6729",
                 "sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==0.45.1"
         },

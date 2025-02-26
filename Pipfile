@@ -164,10 +164,13 @@ xyzservices = "==2025.1.0"
 zipp = "==3.21.0"
 nnaudio = "*"
 pytorch-lightning = "*"
-torch = {version = "==2.6.0", index = "pytorch"}
-torchvision = {version = "==0.21.0", index = "pytorch"}
-torchaudio = {version = "==2.6.0", index = "pytorch"}
+torch = {version = "==2.6.0+cu126", index = "pytorch"}
+torchvision = {version = "==0.21.0+cu126", index = "pytorch"}
+torchaudio = {version = "==2.6.0+cu126", index = "pytorch"}
 mir-eval = "*"
+music2latent = "*"
+setuptools = "*"
+wheel = "*"
 
 [dev-packages]
 
