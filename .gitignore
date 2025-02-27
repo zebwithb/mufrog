@@ -4,6 +4,8 @@
 src/TODO.md
 archive/
 scripts/songs/mp3/
+src/analyzed_output/
+src/mufrog.egg-info/
 #external
 src/scripts/songs/
 src/temp_out/
