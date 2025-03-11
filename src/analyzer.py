@@ -17,6 +17,8 @@ from typing import Dict, Any
 # Third-party imports
 import librosa
 import numpy as np
+import matplotlib.pyplot as plt
+from collections import defaultdict
 from pydub import AudioSegment
 import torch
 import torchaudio
@@ -32,15 +34,14 @@ from Music2Emotion.music2emo import Music2emo
 
 def get_first_mp3():
     """Get the first MP3 file from the songs directory."""
-    mp3_dir = Path(__file__).parent / "scripts" / "songs" / "mp3"
+    mp3_path = Path(__file__).parent / "scripts" / "songs" / "mp3" / "Adele - Someone Like You (Official Music Video)-hLQl3WQQoQ0.mp3"
+            
     try:
-        # Get first MP3 file
-        first_mp3 = next(mp3_dir.glob("*.mp3"))
-        if not first_mp3.is_file():
-            raise FileNotFoundError("No MP3 files found in the songs directory")
-        print(f"Selected audio file: {first_mp3.name}")
-        return str(first_mp3)
-    except (StopIteration, FileNotFoundError) as e:
+        if not mp3_path.is_file():
+            raise FileNotFoundError("MP3 file not found")
+        print(f"Selected audio file: {mp3_path.name}")
+        return str(mp3_path)
+    except FileNotFoundError as e:
         print(f"Error finding MP3 file: {str(e)}")
         sys.exit(1)
 
@@ -274,6 +275,65 @@ def analyze_mp3_collection(
         print(f"An unexpected error occurred: {str(e)}")
         return
 
+def plot_emotion_results(output_dict, title, output_file=None):
+    """
+    Create and save a bar chart visualization of emotion prediction results.
+    
+    Args:
+        output_dict: Dictionary containing emotion prediction results
+        title: Title for the plot
+        output_file: Path to save the plot image (if None, the plot will be displayed)
+    """
+    # Handle the case where output_dict['predicted_moods'] is a list of dictionaries
+    all_moods = {}
+    
+    # Combine all mood predictions from the list
+    if 'predicted_moods' in output_dict and isinstance(output_dict['predicted_moods'], list):
+        for mood_dict in output_dict['predicted_moods']:
+            if 'mood' in mood_dict:
+                for mood, value in mood_dict['mood'].items():
+                    if mood in all_moods:
+                        all_moods[mood] += value
+                    else:
+                        all_moods[mood] = value
+    else:
+        # Fallback: try to use the dictionary directly
+        all_moods = output_dict
+    
+    # Extract emotions and their values
+    emotions = list(all_moods.keys())
+    values = list(all_moods.values())
+    
+    # Create figure and axis
+    fig, ax = plt.subplots(figsize=(10, 6))
+    
+    # Create bar chart
+    bars = ax.bar(emotions, values, color='steelblue')
+    
+    # Add value labels on top of bars
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height + 0.01,
+                f'{height:.3f}', ha='center', va='bottom')
+    
+    # Set labels and title
+    ax.set_xlabel('Emotions')
+    ax.set_ylabel('Prediction Score')
+    ax.set_title(title)
+    
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
+    
+    # Adjust layout
+    plt.tight_layout()
+    
+    # Save or show plot
+    if output_file:
+        plt.savefig(output_file)
+        print(f"Plot saved to {output_file}")
+    
+    plt.close()
+
 # Analyze full audio
 def main():
     """Main function with support for single or batch analysis."""
@@ -297,18 +357,24 @@ def main():
             full_audio_features = extract_audio_features(input_audio)
             output_dic_full = music2emo.predict(input_audio)
             display_analysis_results("🎼 Full Audio Analysis", full_audio_features, output_dic_full)
+            plot_emotion_results(output_dic_full, "Full Audio Emotion Analysis", "output/full_audio_emotions.png")
             
             # 5-second segment analysis
             output_15s = "scripts/songs/mp3/take_on_me_5s.mp3"
             segment_5s_features = extract_audio_features(input_audio, 0, 15, output_15s)
             output_dic_5s = music2emo.predict(output_15s)
             display_analysis_results("🎵 5-Second Segment Analysis", segment_5s_features, output_dic_5s)
+            plot_emotion_results(output_dic_5s, "5-Second Segment Emotion Analysis", "output/5s_segment_emotions.png")
+
             
             # 30-second segment analysis
             output_30s = "scripts/songs/mp3/take_on_me_30s.mp3"
             segment_30s_features = extract_audio_features(input_audio, 0, 30, output_30s)
             output_dic_30s = music2emo.predict(output_30s)
             display_analysis_results("🎵 30-Second Segment Analysis", segment_30s_features, output_dic_30s)
+            plot_emotion_results(output_dic_30s, "30-Second Segment Emotion Analysis", "output/30s_segment_emotions.png")
+            
+            
             
             print("\n" + "=" * 50)
             print("Analysis complete!")
