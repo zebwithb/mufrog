@@ -5,9 +5,18 @@ import torch
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+class ModelConfig(BaseModel):
+    model_name: str = "google/gemma-3-1b-it"
 
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-1b-it")
-model = AutoModelForCausalLM.from_pretrained("google/gemma-3-1b-it")
+def load_model(config: ModelConfig):
+    tokenizer = AutoTokenizer.from_pretrained(config.model_name)
+    model = AutoModelForCausalLM.from_pretrained(config.model_name)
+    return tokenizer, model
+
+config = ModelConfig()
+tokenizer, model = load_model(config)
+
+MOOD_KEYS = ['adventure', 'ballad', 'christmas', 'commercial', 'dark', 'deep', 'drama', 'dramatic', 'dream', 'emotional', 'energetic', 'fast', 'fun', 'funny', 'game', 'groovy', 'happy', 'holiday', 'hopeful', 'love', 'meditative', 'melancholic', 'melodic', 'motivational', 'party', 'positive', 'powerful', 'retro', 'romantic', 'sad', 'sexy', 'slow', 'soft', 'soundscape', 'space', 'sport', 'summer', 'travel', 'upbeat', 'uplifting']
 
 class PromptInput(BaseModel):
     prompt: str
@@ -15,16 +24,35 @@ class PromptInput(BaseModel):
 class EmotionEntry(BaseModel):
     emotion: str
     songs: List[str]
+    
+class PromptEmotionPrediction(BaseModel):
+    prompt: str
+    emotions: None
 
-def classify_emotions(prompt: str) -> List[str]:
-    # Use your LLM to classify emotions from prompt
-    inputs = tokenizer(prompt, return_tensors="pt")
+def classify_emotions(prompt: str) -> dict:
+    # Compose the prompt as a single string (avoid multiline implicit concat)
+    system_prompt = (
+        "Given the following user prompt, generate a JSON dictionary with these moods as keys:\n"
+        + str(MOOD_KEYS) + "\n"
+        "Assign a float score between 0.0 and 1.0 to each mood, reflecting its relevance.\n"
+        "Example output:\n"
+        '{"happy": 0.8, "sad": 0.1, ...}\n\n'
+        f"User prompt: {prompt}\n"
+        "Output JSON:"
+    )
+    inputs = tokenizer(system_prompt, return_tensors="pt")
     with torch.no_grad():
-        outputs = model.generate(**inputs, max_new_tokens=50)
+        outputs = model.generate(**inputs, max_new_tokens=200)
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    # Placeholder: parse response to extract emotions
-    emotions = response.split(",")  # adjust parsing as needed
-    return [e.strip() for e in emotions]
+    # Extract JSON substring
+    start = response.find("{")
+    end = response.rfind("}") + 1
+    json_str = response[start:end]
+    try:
+        mood_scores = json.loads(json_str)
+    except Exception:
+        mood_scores = {}
+    return mood_scores
 
 def load_emotions(json_path: str) -> List[EmotionEntry]:
     with open(json_path, "r", encoding="utf-8") as f:
