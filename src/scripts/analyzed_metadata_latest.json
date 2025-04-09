@@ -1,0 +1,7970 @@
+[
+  {
+    "id": "d9f2afb8-cf86-4158-9536-92fa402fc437",
+    "title": "a-ha - Take On Me (Official Video) [Remastered in 4K]",
+    "artist": "a-ha",
+    "genre": "",
+    "view_count": 2109004424,
+    "likes": 11739441,
+    "release_date": "20100106",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "9d7e3815-e0c5-4541-a29f-4467878b55cd",
+    "title": "Adele - Hello (Official Music Video)",
+    "artist": "Adele",
+    "genre": "",
+    "view_count": 3189623105,
+    "likes": 19057155,
+    "release_date": "20151023",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "0efd9610-ff59-474c-82d2-b621d4018fa6",
+    "title": "Adele - Rolling in the Deep (Official Music Video)",
+    "artist": "Adele",
+    "genre": "",
+    "view_count": 2633327836,
+    "likes": 13644494,
+    "release_date": "20101130",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "b6ad7cec-8461-4b40-a0e2-fb34c8318e9a",
+    "title": "Adele - Someone Like You (Official Music Video)",
+    "artist": "Adele",
+    "genre": "",
+    "view_count": 2283109201,
+    "likes": 11050221,
+    "release_date": "20110929",
+    "valence": 6.078379154205322,
+    "arousal": 6.09097957611084,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8342
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7457
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7308
+      },
+      {
+        "mood": "funny",
+        "score": 0.6992
+      },
+      {
+        "mood": "happy",
+        "score": 0.6859
+      },
+      {
+        "mood": "fun",
+        "score": 0.6715
+      },
+      {
+        "mood": "party",
+        "score": 0.6457
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5668
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5423
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5008
+      }
+    ]
+  },
+  {
+    "id": "0903e82c-e1cb-42bd-bcd2-d38c7909ed57",
+    "title": "Anya Marina - LONDON BLUES (Official Music Video)",
+    "artist": "anyamarinamusic",
+    "genre": "",
+    "view_count": 18810,
+    "likes": 106,
+    "release_date": "20250124",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "15655a8f-db8f-4dbe-b436-6c1593faee15",
+    "title": "Aqua - Barbie Girl (Official Music Video)",
+    "artist": "Aqua",
+    "genre": "",
+    "view_count": 1585976068,
+    "likes": 8967692,
+    "release_date": "20100820",
+    "valence": 7.138604640960693,
+    "arousal": 7.636509895324707,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9133
+      },
+      {
+        "mood": "happy",
+        "score": 0.8832
+      },
+      {
+        "mood": "party",
+        "score": 0.8737
+      },
+      {
+        "mood": "love",
+        "score": 0.8543
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8395
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8388
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8184
+      },
+      {
+        "mood": "fun",
+        "score": 0.7481
+      },
+      {
+        "mood": "holiday",
+        "score": 0.7166
+      },
+      {
+        "mood": "christmas",
+        "score": 0.6109
+      },
+      {
+        "mood": "fast",
+        "score": 0.6075
+      },
+      {
+        "mood": "summer",
+        "score": 0.6013
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5788
+      },
+      {
+        "mood": "sport",
+        "score": 0.5201
+      }
+    ]
+  },
+  {
+    "id": "aaa63df6-2535-4d6b-8ad8-9a870cd3362c",
+    "title": "Ariana Grande - 7 rings (Official Video)",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 1472227293,
+    "likes": 16325992,
+    "release_date": "20190118",
+    "valence": 5.443539142608643,
+    "arousal": 5.140707969665527,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.804
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7283
+      },
+      {
+        "mood": "happy",
+        "score": 0.7012
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6882
+      },
+      {
+        "mood": "funny",
+        "score": 0.6832
+      },
+      {
+        "mood": "dark",
+        "score": 0.5999
+      },
+      {
+        "mood": "summer",
+        "score": 0.5984
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5494
+      }
+    ]
+  },
+  {
+    "id": "795e8d82-6b30-4318-b601-5dec837569d5",
+    "title": "Ariana Grande - Focus (Official Video)",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 1015638183,
+    "likes": 6116967,
+    "release_date": "20151030",
+    "valence": 6.458552837371826,
+    "arousal": 6.823665618896484,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9337
+      },
+      {
+        "mood": "happy",
+        "score": 0.9144
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8599
+      },
+      {
+        "mood": "fun",
+        "score": 0.8341
+      },
+      {
+        "mood": "party",
+        "score": 0.8278
+      },
+      {
+        "mood": "love",
+        "score": 0.8228
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8168
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8136
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7352
+      },
+      {
+        "mood": "summer",
+        "score": 0.728
+      },
+      {
+        "mood": "sport",
+        "score": 0.5511
+      }
+    ]
+  },
+  {
+    "id": "8c922ab0-1451-47f8-9de9-1a070df35d61",
+    "title": "Ariana Grande - Into You (Official Video)",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 1098563143,
+    "likes": 5713814,
+    "release_date": "20160524",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "585acec1-64b1-4c32-a018-f03911a94646",
+    "title": "Ariana Grande - no tears left to cry (Official Video)",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 1237866162,
+    "likes": 8712443,
+    "release_date": "20180420",
+    "valence": 5.575199127197266,
+    "arousal": 5.301845550537109,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8414
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7828
+      },
+      {
+        "mood": "funny",
+        "score": 0.6282
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6201
+      },
+      {
+        "mood": "party",
+        "score": 0.566
+      },
+      {
+        "mood": "summer",
+        "score": 0.5545
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5383
+      },
+      {
+        "mood": "sad",
+        "score": 0.5356
+      },
+      {
+        "mood": "groovy",
+        "score": 0.527
+      }
+    ]
+  },
+  {
+    "id": "87302b8c-a12a-4403-8f52-73f92e88aa83",
+    "title": "Ariana Grande - Problem ft. Iggy Azalea",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 1436564646,
+    "likes": 7164770,
+    "release_date": "20140530",
+    "valence": 5.3848958015441895,
+    "arousal": 6.442811965942383,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8582
+      },
+      {
+        "mood": "love",
+        "score": 0.8294
+      },
+      {
+        "mood": "funny",
+        "score": 0.8132
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7543
+      },
+      {
+        "mood": "fun",
+        "score": 0.7318
+      },
+      {
+        "mood": "party",
+        "score": 0.6298
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6135
+      },
+      {
+        "mood": "dark",
+        "score": 0.6028
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5625
+      },
+      {
+        "mood": "happy",
+        "score": 0.5442
+      },
+      {
+        "mood": "sport",
+        "score": 0.542
+      },
+      {
+        "mood": "fast",
+        "score": 0.5024
+      }
+    ]
+  },
+  {
+    "id": "a0506ff0-d2f4-4120-8839-4df5b8ad5b22",
+    "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 237747430,
+    "likes": 2942845,
+    "release_date": "20240308",
+    "valence": 5.279976844787598,
+    "arousal": 4.95501708984375,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8243
+      },
+      {
+        "mood": "happy",
+        "score": 0.6496
+      },
+      {
+        "mood": "sexy",
+        "score": 0.619
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5754
+      },
+      {
+        "mood": "sad",
+        "score": 0.5395
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5393
+      },
+      {
+        "mood": "dream",
+        "score": 0.532
+      },
+      {
+        "mood": "summer",
+        "score": 0.5259
+      },
+      {
+        "mood": "funny",
+        "score": 0.515
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5143
+      }
+    ]
+  },
+  {
+    "id": "3acaac19-792f-4e6a-a396-7530828f8bcf",
+    "title": "Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj",
+    "artist": "Ariana Grande",
+    "genre": "",
+    "view_count": 2291374252,
+    "likes": 12586672,
+    "release_date": "20160830",
+    "valence": 6.849239826202393,
+    "arousal": 6.73746395111084,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.8968
+      },
+      {
+        "mood": "love",
+        "score": 0.8592
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8576
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8514
+      },
+      {
+        "mood": "happy",
+        "score": 0.8481
+      },
+      {
+        "mood": "fun",
+        "score": 0.8462
+      },
+      {
+        "mood": "party",
+        "score": 0.7877
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7665
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6836
+      },
+      {
+        "mood": "summer",
+        "score": 0.5828
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5239
+      },
+      {
+        "mood": "fast",
+        "score": 0.5195
+      }
+    ]
+  },
+  {
+    "id": "acc6e06c-ef65-47cf-8efa-6b3f7b201a23",
+    "title": "Artemas - i like the way you kiss me (official music video)",
+    "artist": "Artemas",
+    "genre": "",
+    "view_count": 147770431,
+    "likes": 1516657,
+    "release_date": "20240412",
+    "valence": 6.465885639190674,
+    "arousal": 7.062593936920166,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8391
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8362
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8234
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8141
+      },
+      {
+        "mood": "love",
+        "score": 0.7857
+      },
+      {
+        "mood": "fun",
+        "score": 0.7261
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7215
+      },
+      {
+        "mood": "sport",
+        "score": 0.6928
+      },
+      {
+        "mood": "happy",
+        "score": 0.6889
+      },
+      {
+        "mood": "funny",
+        "score": 0.6855
+      },
+      {
+        "mood": "fast",
+        "score": 0.619
+      },
+      {
+        "mood": "dark",
+        "score": 0.6116
+      },
+      {
+        "mood": "powerful",
+        "score": 0.6081
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.52
+      },
+      {
+        "mood": "retro",
+        "score": 0.5024
+      }
+    ]
+  },
+  {
+    "id": "e328b11e-857a-417a-a690-92c35f98d131",
+    "title": "Ava Max - Sweet but Psycho [Official Music Video]",
+    "artist": "Ava Max",
+    "genre": "",
+    "view_count": 972072311,
+    "likes": 7297085,
+    "release_date": "20180827",
+    "valence": 6.540844440460205,
+    "arousal": 6.6787567138671875,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8634
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8446
+      },
+      {
+        "mood": "love",
+        "score": 0.8361
+      },
+      {
+        "mood": "funny",
+        "score": 0.8064
+      },
+      {
+        "mood": "party",
+        "score": 0.7911
+      },
+      {
+        "mood": "happy",
+        "score": 0.7865
+      },
+      {
+        "mood": "fun",
+        "score": 0.7756
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6492
+      },
+      {
+        "mood": "sport",
+        "score": 0.649
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6486
+      },
+      {
+        "mood": "dark",
+        "score": 0.5868
+      }
+    ]
+  },
+  {
+    "id": "0d2c82de-d2e0-4541-a992-2c38bf7b38f0",
+    "title": "Backstreet Boys - I Want It That Way (Official HD Video)",
+    "artist": "Backstreet Boys",
+    "genre": "",
+    "view_count": 1544291381,
+    "likes": 8011826,
+    "release_date": "20091025",
+    "valence": 5.941254615783691,
+    "arousal": 6.124637603759766,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8945
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7171
+      },
+      {
+        "mood": "funny",
+        "score": 0.6909
+      },
+      {
+        "mood": "sexy",
+        "score": 0.677
+      },
+      {
+        "mood": "fun",
+        "score": 0.647
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5894
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5531
+      },
+      {
+        "mood": "happy",
+        "score": 0.5265
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5169
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5156
+      }
+    ]
+  },
+  {
+    "id": "23f309af-34dd-46c2-b75a-8f15b24f1102",
+    "title": "Benson Boone - Beautiful Things (Official Music Video)",
+    "artist": "Benson Boone",
+    "genre": "",
+    "view_count": 520972591,
+    "likes": 4475066,
+    "release_date": "20240118",
+    "valence": 5.7067952156066895,
+    "arousal": 6.3609619140625,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8314
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8039
+      },
+      {
+        "mood": "funny",
+        "score": 0.7687
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6507
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6175
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6127
+      },
+      {
+        "mood": "fun",
+        "score": 0.6007
+      },
+      {
+        "mood": "fast",
+        "score": 0.5721
+      },
+      {
+        "mood": "adventure",
+        "score": 0.5643
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5231
+      }
+    ]
+  },
+  {
+    "id": "4eb1cc15-ff0b-4bee-8418-bc7a012c6de3",
+    "title": "Benson Boone - Slow It Down (Official Music Video)",
+    "artist": "Benson Boone",
+    "genre": "",
+    "view_count": 60782847,
+    "likes": 489765,
+    "release_date": "20240321",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "a6db2b39-73df-4af4-b7ad-a391b6cdd05a",
+    "title": "Best Pop Songs of All Time Playlist of Good Songs (Throwback Hits & Pop Music 2025)",
+    "artist": "Redlist - Just Hits",
+    "genre": "",
+    "view_count": 155030928,
+    "likes": 0,
+    "release_date": "",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "68492285-d43b-4ec1-b2f7-c0ef802ab2b1",
+    "title": "Beyonc\u00e9 - Halo",
+    "artist": "Beyonc\u00e9",
+    "genre": "",
+    "view_count": 1651112674,
+    "likes": 7910964,
+    "release_date": "20091003",
+    "valence": 5.947660446166992,
+    "arousal": 6.417903900146484,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.862
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7828
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7448
+      },
+      {
+        "mood": "fun",
+        "score": 0.7272
+      },
+      {
+        "mood": "funny",
+        "score": 0.7193
+      },
+      {
+        "mood": "happy",
+        "score": 0.7151
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6023
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5811
+      },
+      {
+        "mood": "dark",
+        "score": 0.5249
+      },
+      {
+        "mood": "party",
+        "score": 0.5136
+      }
+    ]
+  },
+  {
+    "id": "0c50b9e2-8c80-4fcc-b46b-5ac574e75764",
+    "title": "Beyonc\u00e9 - Single Ladies (Put a Ring on It) (Video Version)",
+    "artist": "Beyonc\u00e9",
+    "genre": "",
+    "view_count": 1010509925,
+    "likes": 4400603,
+    "release_date": "20091003",
+    "valence": 6.181569576263428,
+    "arousal": 6.569973945617676,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9261
+      },
+      {
+        "mood": "fun",
+        "score": 0.8518
+      },
+      {
+        "mood": "happy",
+        "score": 0.846
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8411
+      },
+      {
+        "mood": "love",
+        "score": 0.8242
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8048
+      },
+      {
+        "mood": "party",
+        "score": 0.7966
+      },
+      {
+        "mood": "summer",
+        "score": 0.6854
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6332
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6275
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5598
+      }
+    ]
+  },
+  {
+    "id": "af54e970-292b-444c-800f-544fc84f8c3d",
+    "title": "Billie Eilish - bad guy",
+    "artist": "Billie Eilish",
+    "genre": "",
+    "view_count": 1304213405,
+    "likes": 18525876,
+    "release_date": "20190329",
+    "valence": 4.239158630371094,
+    "arousal": 4.619417667388916,
+    "predicted_moods": [
+      {
+        "mood": "dark",
+        "score": 0.7981
+      },
+      {
+        "mood": "love",
+        "score": 0.7509
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6837
+      },
+      {
+        "mood": "sad",
+        "score": 0.6568
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5755
+      },
+      {
+        "mood": "groovy",
+        "score": 0.532
+      },
+      {
+        "mood": "funny",
+        "score": 0.5145
+      }
+    ]
+  },
+  {
+    "id": "15cfb61c-894b-43de-93b9-03355ddcb955",
+    "title": "Billie Eilish - BIRDS OF A FEATHER (Official Music Video)",
+    "artist": "Billie Eilish",
+    "genre": "",
+    "view_count": 250668273,
+    "likes": 2866370,
+    "release_date": "20240927",
+    "valence": 5.4994401931762695,
+    "arousal": 5.351325988769531,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8537
+      },
+      {
+        "mood": "sexy",
+        "score": 0.79
+      },
+      {
+        "mood": "happy",
+        "score": 0.7016
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6852
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6207
+      },
+      {
+        "mood": "summer",
+        "score": 0.6019
+      },
+      {
+        "mood": "funny",
+        "score": 0.5392
+      },
+      {
+        "mood": "fun",
+        "score": 0.5307
+      },
+      {
+        "mood": "party",
+        "score": 0.5213
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.52
+      },
+      {
+        "mood": "sad",
+        "score": 0.5044
+      }
+    ]
+  },
+  {
+    "id": "beed41db-6a64-4c27-ad0d-b100b18d9e51",
+    "title": "Billie Eilish - CHIHIRO (Official Music Video)",
+    "artist": "Billie Eilish",
+    "genre": "",
+    "view_count": 87013285,
+    "likes": 1590138,
+    "release_date": "20240606",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "7a0edc2e-c071-485c-a4e4-a24a5723d099",
+    "title": "Billie Eilish - What Was I Made For (Official Music Video)",
+    "artist": "Billie Eilish",
+    "genre": "",
+    "view_count": 201443257,
+    "likes": 3128083,
+    "release_date": "20230713",
+    "valence": 6.166228294372559,
+    "arousal": 6.378958702087402,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8385
+      },
+      {
+        "mood": "happy",
+        "score": 0.7699
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7571
+      },
+      {
+        "mood": "party",
+        "score": 0.7455
+      },
+      {
+        "mood": "love",
+        "score": 0.7349
+      },
+      {
+        "mood": "funny",
+        "score": 0.6989
+      },
+      {
+        "mood": "sport",
+        "score": 0.6213
+      },
+      {
+        "mood": "fun",
+        "score": 0.6022
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5998
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5981
+      },
+      {
+        "mood": "dark",
+        "score": 0.5902
+      }
+    ]
+  },
+  {
+    "id": "857d43d8-0345-4cc8-a001-9bfb3e45c98b",
+    "title": "Billie Eilish - WILDFLOWER (BILLIE BY FINNEAS)",
+    "artist": "Billie Eilish",
+    "genre": "",
+    "view_count": 18566003,
+    "likes": 286178,
+    "release_date": "20240522",
+    "valence": 5.644445419311523,
+    "arousal": 5.757081985473633,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8463
+      },
+      {
+        "mood": "dark",
+        "score": 0.8276
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5833
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5435
+      },
+      {
+        "mood": "travel",
+        "score": 0.5129
+      }
+    ]
+  },
+  {
+    "id": "3d87fca9-4d04-4d56-b97b-b19f32e4e098",
+    "title": "Britney Spears - ...Baby One More Time (Official Video)",
+    "artist": "Britney Spears",
+    "genre": "",
+    "view_count": 1037567515,
+    "likes": 5762529,
+    "release_date": "20091025",
+    "valence": 6.7587571144104,
+    "arousal": 7.364173889160156,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9267
+      },
+      {
+        "mood": "happy",
+        "score": 0.9063
+      },
+      {
+        "mood": "love",
+        "score": 0.8734
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8734
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8695
+      },
+      {
+        "mood": "party",
+        "score": 0.8574
+      },
+      {
+        "mood": "energetic",
+        "score": 0.824
+      },
+      {
+        "mood": "summer",
+        "score": 0.784
+      },
+      {
+        "mood": "fun",
+        "score": 0.7608
+      },
+      {
+        "mood": "sport",
+        "score": 0.6679
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6547
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6464
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5681
+      },
+      {
+        "mood": "fast",
+        "score": 0.5282
+      }
+    ]
+  },
+  {
+    "id": "2c610c7a-96b5-43a2-94f0-6a8bfc44f9cb",
+    "title": "Bruno Mars - 24K Magic (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 1711023368,
+    "likes": 8754219,
+    "release_date": "20161007",
+    "valence": 6.856017589569092,
+    "arousal": 7.16405725479126,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9532
+      },
+      {
+        "mood": "groovy",
+        "score": 0.9323
+      },
+      {
+        "mood": "sexy",
+        "score": 0.928
+      },
+      {
+        "mood": "happy",
+        "score": 0.9044
+      },
+      {
+        "mood": "sport",
+        "score": 0.9024
+      },
+      {
+        "mood": "party",
+        "score": 0.8793
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8124
+      },
+      {
+        "mood": "summer",
+        "score": 0.8074
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8022
+      },
+      {
+        "mood": "fun",
+        "score": 0.7263
+      },
+      {
+        "mood": "love",
+        "score": 0.7102
+      },
+      {
+        "mood": "positive",
+        "score": 0.5793
+      },
+      {
+        "mood": "fast",
+        "score": 0.5029
+      }
+    ]
+  },
+  {
+    "id": "ae48e5c2-8b95-4fa9-a94c-8dd5d911548e",
+    "title": "Bruno Mars - Grenade (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 1216696719,
+    "likes": 5974345,
+    "release_date": "20101122",
+    "valence": 5.986886501312256,
+    "arousal": 6.113485813140869,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9278
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7184
+      },
+      {
+        "mood": "sexy",
+        "score": 0.713
+      },
+      {
+        "mood": "happy",
+        "score": 0.6537
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6483
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.6353
+      },
+      {
+        "mood": "funny",
+        "score": 0.6072
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5196
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5115
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5058
+      }
+    ]
+  },
+  {
+    "id": "096b7e66-b613-4cf4-84a8-6739d8a631dc",
+    "title": "Bruno Mars - Just The Way You Are (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 2021023886,
+    "likes": 8798283,
+    "release_date": "20100908",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "1e56c3c0-a100-4e35-8e8f-092b66616341",
+    "title": "Bruno Mars - Locked Out Of Heaven (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 1134580447,
+    "likes": 7180367,
+    "release_date": "20121015",
+    "valence": 5.583520412445068,
+    "arousal": 6.258119583129883,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8052
+      },
+      {
+        "mood": "dark",
+        "score": 0.7132
+      },
+      {
+        "mood": "drama",
+        "score": 0.6795
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6376
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6272
+      },
+      {
+        "mood": "travel",
+        "score": 0.6204
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6074
+      },
+      {
+        "mood": "adventure",
+        "score": 0.606
+      },
+      {
+        "mood": "christmas",
+        "score": 0.5989
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5219
+      },
+      {
+        "mood": "fast",
+        "score": 0.5062
+      },
+      {
+        "mood": "ballad",
+        "score": 0.5025
+      }
+    ]
+  },
+  {
+    "id": "80211a06-6be2-4abb-84c7-0ca6f6db91f3",
+    "title": "Bruno Mars - That\u2019s What I Like [Official Music Video]",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 2375062604,
+    "likes": 13938764,
+    "release_date": "20170302",
+    "valence": 6.6901326179504395,
+    "arousal": 6.708677291870117,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.9307
+      },
+      {
+        "mood": "funny",
+        "score": 0.9178
+      },
+      {
+        "mood": "happy",
+        "score": 0.8517
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8397
+      },
+      {
+        "mood": "love",
+        "score": 0.8238
+      },
+      {
+        "mood": "party",
+        "score": 0.8111
+      },
+      {
+        "mood": "groovy",
+        "score": 0.8003
+      },
+      {
+        "mood": "fun",
+        "score": 0.7026
+      },
+      {
+        "mood": "summer",
+        "score": 0.6792
+      },
+      {
+        "mood": "sport",
+        "score": 0.6123
+      },
+      {
+        "mood": "dark",
+        "score": 0.6045
+      }
+    ]
+  },
+  {
+    "id": "3e41e980-348a-498c-861d-d69c38508d08",
+    "title": "Bruno Mars - The Lazy Song (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 2932853093,
+    "likes": 15547922,
+    "release_date": "20110415",
+    "valence": 7.760130882263184,
+    "arousal": 6.929844856262207,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9525
+      },
+      {
+        "mood": "happy",
+        "score": 0.9149
+      },
+      {
+        "mood": "love",
+        "score": 0.8818
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8643
+      },
+      {
+        "mood": "groovy",
+        "score": 0.8085
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8031
+      },
+      {
+        "mood": "summer",
+        "score": 0.7842
+      },
+      {
+        "mood": "fun",
+        "score": 0.7654
+      },
+      {
+        "mood": "positive",
+        "score": 0.6569
+      },
+      {
+        "mood": "party",
+        "score": 0.6539
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6135
+      },
+      {
+        "mood": "sport",
+        "score": 0.5217
+      }
+    ]
+  },
+  {
+    "id": "4f4db0c1-837f-49e5-8b0e-55a2d6c9584a",
+    "title": "Bruno Mars - When I Was Your Man (Official Music Video)",
+    "artist": "Bruno Mars",
+    "genre": "",
+    "view_count": 1455242180,
+    "likes": 7838960,
+    "release_date": "20130205",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "704bb584-3a9e-4163-af6e-17bfabc2cb02",
+    "title": "BTS (\ubc29\ud0c4\uc18c\ub144\ub2e8) 'Dynamite' Official MV",
+    "artist": "HYBE LABELS",
+    "genre": "",
+    "view_count": 1926406443,
+    "likes": 38070495,
+    "release_date": "20200821",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "32a8b6e0-bf59-4e7d-bb0e-19d02d076524",
+    "title": "Calum Scott, Leona Lewis - You Are The Reason (Duet Version)",
+    "artist": "Calum Scott",
+    "genre": "",
+    "view_count": 636422088,
+    "likes": 3333712,
+    "release_date": "20180307",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "cab024b9-8f81-4a1b-9cc7-902ff0179203",
+    "title": "Camila Cabello - Havana (Vertical Video) ft. Young Thug",
+    "artist": "Camila Cabello",
+    "genre": "",
+    "view_count": 148125727,
+    "likes": 1008863,
+    "release_date": "20171110",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "4464325b-a63d-4c1a-9270-77fcbca0ad79",
+    "title": "Carly Rae Jepsen - Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "genre": "",
+    "view_count": 1702478138,
+    "likes": 9720192,
+    "release_date": "20120301",
+    "valence": 6.527323246002197,
+    "arousal": 6.71852970123291,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8464
+      },
+      {
+        "mood": "funny",
+        "score": 0.8276
+      },
+      {
+        "mood": "happy",
+        "score": 0.8122
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8043
+      },
+      {
+        "mood": "party",
+        "score": 0.7934
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7907
+      },
+      {
+        "mood": "fun",
+        "score": 0.7582
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7296
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6396
+      },
+      {
+        "mood": "sport",
+        "score": 0.5932
+      },
+      {
+        "mood": "summer",
+        "score": 0.5687
+      }
+    ]
+  },
+  {
+    "id": "708cf2d1-8ad0-44ac-9693-a75798702711",
+    "title": "Chappell Roan - Good Luck, Babe! (Official Lyric Video)",
+    "artist": "Chappell Roan",
+    "genre": "",
+    "view_count": 81706890,
+    "likes": 786230,
+    "release_date": "20240405",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "478c2b15-3111-486f-9a57-643d71c0ab4f",
+    "title": "Chappell Roan - HOT TO GO! (Official Music Video)",
+    "artist": "Chappell Roan",
+    "genre": "",
+    "view_count": 50062699,
+    "likes": 607565,
+    "release_date": "20230811",
+    "valence": 5.755972385406494,
+    "arousal": 6.739682674407959,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.8477
+      },
+      {
+        "mood": "fun",
+        "score": 0.8119
+      },
+      {
+        "mood": "love",
+        "score": 0.7698
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7272
+      },
+      {
+        "mood": "dark",
+        "score": 0.7142
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6318
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6137
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6104
+      },
+      {
+        "mood": "happy",
+        "score": 0.6044
+      },
+      {
+        "mood": "party",
+        "score": 0.5863
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5547
+      },
+      {
+        "mood": "christmas",
+        "score": 0.5494
+      },
+      {
+        "mood": "fast",
+        "score": 0.527
+      }
+    ]
+  },
+  {
+    "id": "3c585134-c726-40bf-ac75-49816b7f7be6",
+    "title": "Charlie Puth - Attention [Official Video]",
+    "artist": "Charlie Puth",
+    "genre": "",
+    "view_count": 1642423536,
+    "likes": 11307440,
+    "release_date": "20170424",
+    "valence": 5.82813024520874,
+    "arousal": 5.445392608642578,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8325
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7867
+      },
+      {
+        "mood": "funny",
+        "score": 0.7806
+      },
+      {
+        "mood": "happy",
+        "score": 0.7654
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7301
+      },
+      {
+        "mood": "summer",
+        "score": 0.6526
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5999
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5217
+      }
+    ]
+  },
+  {
+    "id": "f1ca37c7-4ea6-4dac-8da2-53a1360d4ef4",
+    "title": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video]",
+    "artist": "Charlie Puth",
+    "genre": "",
+    "view_count": 3275298804,
+    "likes": 15166090,
+    "release_date": "20160802",
+    "valence": 5.661506175994873,
+    "arousal": 5.029146671295166,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.885
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7771
+      },
+      {
+        "mood": "summer",
+        "score": 0.7536
+      },
+      {
+        "mood": "happy",
+        "score": 0.7286
+      },
+      {
+        "mood": "deep",
+        "score": 0.6308
+      },
+      {
+        "mood": "dream",
+        "score": 0.6021
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5667
+      },
+      {
+        "mood": "funny",
+        "score": 0.5245
+      }
+    ]
+  },
+  {
+    "id": "33e8f0db-a6c4-4277-93d3-58aa1eb6e1a4",
+    "title": "Christina Perri - A Thousand Years [Official Music Video]",
+    "artist": "Christina Perri",
+    "genre": "",
+    "view_count": 2591522264,
+    "likes": 15883668,
+    "release_date": "20111026",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "8ac8efca-b6a6-4df6-8022-cb725146381b",
+    "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+    "artist": "Clean Bandit",
+    "genre": "",
+    "view_count": 3036731265,
+    "likes": 14462050,
+    "release_date": "20161021",
+    "valence": 6.486138820648193,
+    "arousal": 6.7952728271484375,
+    "predicted_moods": [
+      {
+        "mood": "upbeat",
+        "score": 0.84
+      },
+      {
+        "mood": "funny",
+        "score": 0.8315
+      },
+      {
+        "mood": "happy",
+        "score": 0.801
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7679
+      },
+      {
+        "mood": "love",
+        "score": 0.756
+      },
+      {
+        "mood": "party",
+        "score": 0.7536
+      },
+      {
+        "mood": "summer",
+        "score": 0.7349
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7344
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6907
+      },
+      {
+        "mood": "sport",
+        "score": 0.6679
+      },
+      {
+        "mood": "fun",
+        "score": 0.5916
+      },
+      {
+        "mood": "deep",
+        "score": 0.5311
+      },
+      {
+        "mood": "fast",
+        "score": 0.5157
+      }
+    ]
+  },
+  {
+    "id": "a01cbb4b-28a6-45b3-8d6d-889ab5f3c469",
+    "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+    "artist": "Clean Bandit",
+    "genre": "",
+    "view_count": 1048762163,
+    "likes": 7091882,
+    "release_date": "20180531",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "e26a2d85-3395-4522-9aa6-a8c10585cbd4",
+    "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+    "artist": "Clean Bandit",
+    "genre": "",
+    "view_count": 1366669610,
+    "likes": 8288712,
+    "release_date": "20170317",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "56214f20-95e9-4baa-8d2d-9d7b5961c257",
+    "title": "CLOVER - Used to It (Official Music Video)",
+    "artist": "CLOVER",
+    "genre": "",
+    "view_count": 7723,
+    "likes": 68,
+    "release_date": "20250129",
+    "valence": 6.7315568923950195,
+    "arousal": 6.961438179016113,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8706
+      },
+      {
+        "mood": "love",
+        "score": 0.8116
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7844
+      },
+      {
+        "mood": "party",
+        "score": 0.764
+      },
+      {
+        "mood": "happy",
+        "score": 0.7004
+      },
+      {
+        "mood": "funny",
+        "score": 0.688
+      },
+      {
+        "mood": "sport",
+        "score": 0.6597
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6421
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6384
+      },
+      {
+        "mood": "fun",
+        "score": 0.5836
+      },
+      {
+        "mood": "dark",
+        "score": 0.5317
+      },
+      {
+        "mood": "retro",
+        "score": 0.5088
+      }
+    ]
+  },
+  {
+    "id": "14d5a2f8-921a-48e4-add2-5201ec902887",
+    "title": "Coldplay - A Sky Full Of Stars (Official Video)",
+    "artist": "Coldplay",
+    "genre": "",
+    "view_count": 970262640,
+    "likes": 4565270,
+    "release_date": "20140619",
+    "valence": 6.391725063323975,
+    "arousal": 7.505889892578125,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8816
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8345
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8328
+      },
+      {
+        "mood": "funny",
+        "score": 0.8275
+      },
+      {
+        "mood": "happy",
+        "score": 0.7949
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7906
+      },
+      {
+        "mood": "summer",
+        "score": 0.7692
+      },
+      {
+        "mood": "sport",
+        "score": 0.7637
+      },
+      {
+        "mood": "love",
+        "score": 0.6821
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6356
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5707
+      },
+      {
+        "mood": "deep",
+        "score": 0.5401
+      },
+      {
+        "mood": "fun",
+        "score": 0.5156
+      }
+    ]
+  },
+  {
+    "id": "723ae333-97ea-45ac-b2ba-bf1fc3e6dcc7",
+    "title": "Coldplay - Hymn For The Weekend (Official Video)",
+    "artist": "Coldplay",
+    "genre": "",
+    "view_count": 2127018280,
+    "likes": 15583936,
+    "release_date": "20160129",
+    "valence": 6.800055980682373,
+    "arousal": 7.649980545043945,
+    "predicted_moods": [
+      {
+        "mood": "upbeat",
+        "score": 0.9167
+      },
+      {
+        "mood": "funny",
+        "score": 0.9162
+      },
+      {
+        "mood": "happy",
+        "score": 0.9158
+      },
+      {
+        "mood": "party",
+        "score": 0.906
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8716
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8692
+      },
+      {
+        "mood": "love",
+        "score": 0.8646
+      },
+      {
+        "mood": "fun",
+        "score": 0.784
+      },
+      {
+        "mood": "summer",
+        "score": 0.7812
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.7185
+      },
+      {
+        "mood": "sport",
+        "score": 0.6693
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6479
+      },
+      {
+        "mood": "fast",
+        "score": 0.6309
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6299
+      },
+      {
+        "mood": "positive",
+        "score": 0.5231
+      }
+    ]
+  },
+  {
+    "id": "e09e3b33-7bb7-4efa-b7db-3c6b53de50bb",
+    "title": "Coldplay - The Scientist (Official 4K Video)",
+    "artist": "Coldplay",
+    "genre": "",
+    "view_count": 1256733812,
+    "likes": 6300997,
+    "release_date": "20110527",
+    "valence": 4.759551525115967,
+    "arousal": 4.861605644226074,
+    "predicted_moods": [
+      {
+        "mood": "ballad",
+        "score": 0.8597
+      },
+      {
+        "mood": "drama",
+        "score": 0.8426
+      },
+      {
+        "mood": "love",
+        "score": 0.8297
+      },
+      {
+        "mood": "emotional",
+        "score": 0.8222
+      },
+      {
+        "mood": "holiday",
+        "score": 0.7857
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.7596
+      },
+      {
+        "mood": "dark",
+        "score": 0.7111
+      },
+      {
+        "mood": "christmas",
+        "score": 0.6803
+      },
+      {
+        "mood": "travel",
+        "score": 0.6295
+      },
+      {
+        "mood": "dramatic",
+        "score": 0.5233
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5218
+      },
+      {
+        "mood": "sad",
+        "score": 0.5198
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.5156
+      }
+    ]
+  },
+  {
+    "id": "f4d394ff-0cc4-48cb-9409-05cda6681229",
+    "title": "Creepy Nuts - \u30aa\u30c8\u30ce\u30b1(Otonoke) \u3010Official MV\u3011 [Dandadan OP]",
+    "artist": "Creepy Nuts",
+    "genre": "",
+    "view_count": 56213686,
+    "likes": 878111,
+    "release_date": "20241017",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "13da788c-8109-4e93-b20b-436e0e2f9f7a",
+    "title": "Damiano David - Born With a Broken Heart (Official Video)",
+    "artist": "Damiano David",
+    "genre": "",
+    "view_count": 17828724,
+    "likes": 280410,
+    "release_date": "20241025",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "4346d0cb-6c8c-4d58-9abb-86aaff2d1abf",
+    "title": "David Guetta - Say My Name (Lyrics) ft. Bebe Rexha, J Balvin",
+    "artist": "NewMelody",
+    "genre": "",
+    "view_count": 120035182,
+    "likes": 948878,
+    "release_date": "20181121",
+    "valence": 7.2185163497924805,
+    "arousal": 7.510807037353516,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9258
+      },
+      {
+        "mood": "sexy",
+        "score": 0.9047
+      },
+      {
+        "mood": "happy",
+        "score": 0.8577
+      },
+      {
+        "mood": "party",
+        "score": 0.8539
+      },
+      {
+        "mood": "funny",
+        "score": 0.8534
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.845
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8154
+      },
+      {
+        "mood": "fun",
+        "score": 0.7659
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6655
+      },
+      {
+        "mood": "summer",
+        "score": 0.6497
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5411
+      }
+    ]
+  },
+  {
+    "id": "b83d3983-4ca8-4d8f-9d26-15a6b29f0557",
+    "title": "David Kushner - Daylight (Official Music Video)",
+    "artist": "David Kushner",
+    "genre": "",
+    "view_count": 399427886,
+    "likes": 4530687,
+    "release_date": "20230414",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "02b954bc-ad0a-4503-9a59-8aaac4546ef6",
+    "title": "Dean Lewis - How Do I Say Goodbye (Official Video)",
+    "artist": "Dean Lewis",
+    "genre": "",
+    "view_count": 102141630,
+    "likes": 1052469,
+    "release_date": "20220905",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "1b54817b-968d-4218-a37a-d81b7235f405",
+    "title": "DJ Khaled - I'm The One ft. Justin Bieber, Quavo, Chance the Rapper, Lil Wayne",
+    "artist": "DJ Khaled",
+    "genre": "",
+    "view_count": 1839583580,
+    "likes": 11077229,
+    "release_date": "20170428",
+    "valence": 6.183899402618408,
+    "arousal": 6.162019729614258,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8351
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7879
+      },
+      {
+        "mood": "happy",
+        "score": 0.755
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7429
+      },
+      {
+        "mood": "funny",
+        "score": 0.7376
+      },
+      {
+        "mood": "party",
+        "score": 0.718
+      },
+      {
+        "mood": "fun",
+        "score": 0.6819
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.641
+      },
+      {
+        "mood": "summer",
+        "score": 0.6058
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5846
+      }
+    ]
+  },
+  {
+    "id": "abd7de13-766e-4d61-b068-fdf76ea04954",
+    "title": "DJ Snake - Let Me Love You ft. Justin Bieber",
+    "artist": "DJ Snake",
+    "genre": "",
+    "view_count": 1589461638,
+    "likes": 10485591,
+    "release_date": "20161129",
+    "valence": 6.815573692321777,
+    "arousal": 6.827675819396973,
+    "predicted_moods": [
+      {
+        "mood": "summer",
+        "score": 0.9582
+      },
+      {
+        "mood": "happy",
+        "score": 0.9239
+      },
+      {
+        "mood": "funny",
+        "score": 0.8932
+      },
+      {
+        "mood": "deep",
+        "score": 0.8923
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8714
+      },
+      {
+        "mood": "party",
+        "score": 0.8659
+      },
+      {
+        "mood": "sport",
+        "score": 0.8036
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7629
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7321
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6706
+      },
+      {
+        "mood": "love",
+        "score": 0.5879
+      },
+      {
+        "mood": "positive",
+        "score": 0.5496
+      }
+    ]
+  },
+  {
+    "id": "5ddaa954-496c-4e24-bcff-5ca3b75ddca6",
+    "title": "Dua Lipa - Houdini (Official Music Video)",
+    "artist": "Dua Lipa",
+    "genre": "",
+    "view_count": 189264021,
+    "likes": 1452288,
+    "release_date": "20231109",
+    "valence": 6.472870349884033,
+    "arousal": 7.057713508605957,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8619
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8445
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8258
+      },
+      {
+        "mood": "energetic",
+        "score": 0.824
+      },
+      {
+        "mood": "love",
+        "score": 0.7655
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7423
+      },
+      {
+        "mood": "sport",
+        "score": 0.7418
+      },
+      {
+        "mood": "funny",
+        "score": 0.7198
+      },
+      {
+        "mood": "happy",
+        "score": 0.7166
+      },
+      {
+        "mood": "fun",
+        "score": 0.696
+      },
+      {
+        "mood": "fast",
+        "score": 0.6073
+      },
+      {
+        "mood": "dark",
+        "score": 0.5765
+      },
+      {
+        "mood": "powerful",
+        "score": 0.5392
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5156
+      }
+    ]
+  },
+  {
+    "id": "df77743d-d227-43fa-8b8e-f4f7d484f5c2",
+    "title": "Dua Lipa - New Rules (Official Music Video)",
+    "artist": "Dua Lipa",
+    "genre": "",
+    "view_count": 3116164280,
+    "likes": 17945939,
+    "release_date": "20170707",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "7172e06f-68e5-47de-80e9-4ade66cab5d1",
+    "title": "Ed Sheeran - Perfect (Official Music Video)",
+    "artist": "Ed Sheeran",
+    "genre": null,
+    "view_count": 3891617078,
+    "likes": 0,
+    "release_date": "",
+    "valence": 5.332988262176514,
+    "arousal": 4.539578914642334,
+    "predicted_moods": [
+      {
+        "mood": "ballad",
+        "score": 0.9161
+      },
+      {
+        "mood": "love",
+        "score": 0.911
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.7954
+      },
+      {
+        "mood": "sad",
+        "score": 0.7363
+      },
+      {
+        "mood": "romantic",
+        "score": 0.6775
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6534
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.6394
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5666
+      },
+      {
+        "mood": "slow",
+        "score": 0.5658
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5504
+      },
+      {
+        "mood": "dark",
+        "score": 0.548
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5165
+      }
+    ]
+  },
+  {
+    "id": "4debef4d-1bd9-4991-81a6-e905ea239d82",
+    "title": "Ed Sheeran - Photograph (Official Music Video)",
+    "artist": "Ed Sheeran",
+    "genre": "",
+    "view_count": 1423311081,
+    "likes": 7360336,
+    "release_date": "20150510",
+    "valence": 5.6089396476745605,
+    "arousal": 5.436110496520996,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9262
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6808
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6707
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.6439
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5868
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5725
+      },
+      {
+        "mood": "dream",
+        "score": 0.5703
+      },
+      {
+        "mood": "happy",
+        "score": 0.5374
+      },
+      {
+        "mood": "travel",
+        "score": 0.5242
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5182
+      },
+      {
+        "mood": "funny",
+        "score": 0.5062
+      },
+      {
+        "mood": "romantic",
+        "score": 0.506
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5017
+      }
+    ]
+  },
+  {
+    "id": "965197bb-75b2-43dd-bf16-dbcfc7eeb197",
+    "title": "Ed Sheeran - Shape of You (Official Music Video)",
+    "artist": "Ed Sheeran",
+    "genre": null,
+    "view_count": 6417258174,
+    "likes": 0,
+    "release_date": "",
+    "valence": 6.906261920928955,
+    "arousal": 6.229001998901367,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8592
+      },
+      {
+        "mood": "happy",
+        "score": 0.8347
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8345
+      },
+      {
+        "mood": "funny",
+        "score": 0.8246
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7193
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6969
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6912
+      },
+      {
+        "mood": "summer",
+        "score": 0.6906
+      },
+      {
+        "mood": "sport",
+        "score": 0.6165
+      },
+      {
+        "mood": "positive",
+        "score": 0.5983
+      },
+      {
+        "mood": "party",
+        "score": 0.5893
+      },
+      {
+        "mood": "fun",
+        "score": 0.5811
+      }
+    ]
+  },
+  {
+    "id": "1d122a07-3566-491b-aee0-653260c197dd",
+    "title": "Ed Sheeran - Thinking Out Loud (Official Music Video)",
+    "artist": "Ed Sheeran",
+    "genre": "",
+    "view_count": 3853215358,
+    "likes": 15540284,
+    "release_date": "20141007",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "2799815d-b730-414a-83c4-7706802ab842",
+    "title": "Ellie Goulding - Burn (Official Video)",
+    "artist": "Ellie Goulding",
+    "genre": "",
+    "view_count": 1605565191,
+    "likes": 6270231,
+    "release_date": "20130707",
+    "valence": 5.396109104156494,
+    "arousal": 5.902321815490723,
+    "predicted_moods": [
+      {
+        "mood": "dark",
+        "score": 0.8268
+      },
+      {
+        "mood": "love",
+        "score": 0.7724
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7392
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6891
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6101
+      },
+      {
+        "mood": "funny",
+        "score": 0.5774
+      },
+      {
+        "mood": "sad",
+        "score": 0.5237
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5229
+      }
+    ]
+  },
+  {
+    "id": "554a1d12-6bd6-4f6f-873b-e154f42ebb0d",
+    "title": "Ellie Goulding - Love Me Like You Do (Official Video)",
+    "artist": "Ellie Goulding",
+    "genre": "",
+    "view_count": 2361658686,
+    "likes": 13396303,
+    "release_date": "20150122",
+    "valence": 5.438112735748291,
+    "arousal": 5.469231128692627,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8529
+      },
+      {
+        "mood": "holiday",
+        "score": 0.7706
+      },
+      {
+        "mood": "christmas",
+        "score": 0.7048
+      },
+      {
+        "mood": "funny",
+        "score": 0.6414
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6231
+      },
+      {
+        "mood": "fun",
+        "score": 0.5963
+      },
+      {
+        "mood": "dark",
+        "score": 0.5648
+      },
+      {
+        "mood": "energetic",
+        "score": 0.558
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5141
+      }
+    ]
+  },
+  {
+    "id": "eb7f7842-e74c-4970-b80f-e9cf001f98bd",
+    "title": "Eurythmics, Annie Lennox, Dave Stewart - Sweet Dreams (Are Made Of This) (Official Video)",
+    "artist": "Eurythmics",
+    "genre": "",
+    "view_count": 1016327945,
+    "likes": 7871627,
+    "release_date": "20091025",
+    "valence": 6.495223522186279,
+    "arousal": 6.642539024353027,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9077
+      },
+      {
+        "mood": "funny",
+        "score": 0.8633
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8494
+      },
+      {
+        "mood": "happy",
+        "score": 0.7881
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7024
+      },
+      {
+        "mood": "party",
+        "score": 0.6872
+      },
+      {
+        "mood": "summer",
+        "score": 0.611
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5773
+      },
+      {
+        "mood": "fun",
+        "score": 0.5688
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5262
+      }
+    ]
+  },
+  {
+    "id": "6e032492-b171-4bed-8afd-295e064f41c2",
+    "title": "Fifth Harmony - Work from Home (Official Video) ft. Ty Dolla $ign",
+    "artist": "Fifth Harmony",
+    "genre": "",
+    "view_count": 2939906676,
+    "likes": 12767269,
+    "release_date": "20160226",
+    "valence": 6.737735748291016,
+    "arousal": 6.861327171325684,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.8932
+      },
+      {
+        "mood": "sexy",
+        "score": 0.852
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8431
+      },
+      {
+        "mood": "happy",
+        "score": 0.8365
+      },
+      {
+        "mood": "love",
+        "score": 0.8308
+      },
+      {
+        "mood": "party",
+        "score": 0.8279
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7486
+      },
+      {
+        "mood": "summer",
+        "score": 0.7451
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7382
+      },
+      {
+        "mood": "fun",
+        "score": 0.7167
+      },
+      {
+        "mood": "sport",
+        "score": 0.6569
+      }
+    ]
+  },
+  {
+    "id": "c7af69a1-3e65-4702-a817-29d8b681f3c8",
+    "title": "Fifth Harmony - Worth It (Official Video) ft. Kid Ink",
+    "artist": "Fifth Harmony",
+    "genre": "",
+    "view_count": 2333684715,
+    "likes": 12159478,
+    "release_date": "20150328",
+    "valence": 6.090311050415039,
+    "arousal": 6.038518905639648,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8852
+      },
+      {
+        "mood": "funny",
+        "score": 0.8638
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8502
+      },
+      {
+        "mood": "happy",
+        "score": 0.8153
+      },
+      {
+        "mood": "summer",
+        "score": 0.6965
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6782
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6462
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6116
+      },
+      {
+        "mood": "party",
+        "score": 0.595
+      },
+      {
+        "mood": "fun",
+        "score": 0.5744
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5005
+      }
+    ]
+  },
+  {
+    "id": "ad790b02-9944-4d0b-93e3-429ef8c9f0b1",
+    "title": "G2Swing - BANGKOK BY NIGHT ft. Jae Freshmen x TRIPLE F x Chip7 x CKR CHICKARAT [Official MV]",
+    "artist": "Floor42Records",
+    "genre": "",
+    "view_count": 220348,
+    "likes": 1072,
+    "release_date": "20241210",
+    "valence": 6.434525012969971,
+    "arousal": 6.810061454772949,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.973
+      },
+      {
+        "mood": "happy",
+        "score": 0.9208
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8661
+      },
+      {
+        "mood": "love",
+        "score": 0.8473
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8457
+      },
+      {
+        "mood": "summer",
+        "score": 0.8036
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7953
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7923
+      },
+      {
+        "mood": "fun",
+        "score": 0.7768
+      },
+      {
+        "mood": "party",
+        "score": 0.7696
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6483
+      },
+      {
+        "mood": "sport",
+        "score": 0.6103
+      },
+      {
+        "mood": "positive",
+        "score": 0.5627
+      },
+      {
+        "mood": "fast",
+        "score": 0.5055
+      }
+    ]
+  },
+  {
+    "id": "75eadfe9-dada-4cc5-9890-29e2366dea87",
+    "title": "Gotye - Somebody That I Used To Know (feat. Kimbra) [Official Music Video]",
+    "artist": "gotyemusic",
+    "genre": "",
+    "view_count": 2415178347,
+    "likes": 16819597,
+    "release_date": "20110705",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "787f24cd-323d-4d94-8505-94ff39193a9c",
+    "title": "Gracie Abrams - That\u2019s So True (Official Lyric Video)",
+    "artist": "Gracie Abrams",
+    "genre": "",
+    "view_count": 13070849,
+    "likes": 161104,
+    "release_date": "20241018",
+    "valence": 6.339574337005615,
+    "arousal": 6.13472843170166,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9079
+      },
+      {
+        "mood": "funny",
+        "score": 0.8312
+      },
+      {
+        "mood": "happy",
+        "score": 0.8286
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7811
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7023
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6982
+      },
+      {
+        "mood": "summer",
+        "score": 0.6401
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6241
+      },
+      {
+        "mood": "fun",
+        "score": 0.6182
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5402
+      },
+      {
+        "mood": "party",
+        "score": 0.5268
+      }
+    ]
+  },
+  {
+    "id": "5cb79785-378b-4903-a171-b73a2ee91036",
+    "title": "Halsey - Without Me",
+    "artist": "Halsey",
+    "genre": "",
+    "view_count": 989589984,
+    "likes": 9299662,
+    "release_date": "20181029",
+    "valence": 6.113438129425049,
+    "arousal": 6.158032417297363,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.8545
+      },
+      {
+        "mood": "love",
+        "score": 0.85
+      },
+      {
+        "mood": "happy",
+        "score": 0.8118
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7529
+      },
+      {
+        "mood": "funny",
+        "score": 0.7228
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6772
+      },
+      {
+        "mood": "summer",
+        "score": 0.6453
+      },
+      {
+        "mood": "party",
+        "score": 0.6414
+      },
+      {
+        "mood": "fun",
+        "score": 0.5767
+      },
+      {
+        "mood": "dark",
+        "score": 0.5548
+      },
+      {
+        "mood": "christmas",
+        "score": 0.5191
+      }
+    ]
+  },
+  {
+    "id": "1e307b18-2aa8-4bfb-a6c3-0a6a3fb6e921",
+    "title": "Harry Styles - As It Was (Official Video)",
+    "artist": "Harry Styles",
+    "genre": "",
+    "view_count": 807488102,
+    "likes": 8445868,
+    "release_date": "20220331",
+    "valence": 4.841500282287598,
+    "arousal": 4.685053825378418,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9055
+      },
+      {
+        "mood": "ballad",
+        "score": 0.7492
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.7441
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.7377
+      },
+      {
+        "mood": "sad",
+        "score": 0.7108
+      },
+      {
+        "mood": "drama",
+        "score": 0.6891
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6891
+      },
+      {
+        "mood": "travel",
+        "score": 0.6295
+      },
+      {
+        "mood": "dream",
+        "score": 0.6098
+      },
+      {
+        "mood": "dark",
+        "score": 0.6068
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5643
+      },
+      {
+        "mood": "soft",
+        "score": 0.5462
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5407
+      }
+    ]
+  },
+  {
+    "id": "6a3e9d64-1d52-4c65-b541-839a74f314eb",
+    "title": "Harry Styles - Sign of the Times (Official Video)",
+    "artist": "Harry Styles",
+    "genre": "",
+    "view_count": 1356673090,
+    "likes": 9134273,
+    "release_date": "20170508",
+    "valence": 5.615089416503906,
+    "arousal": 6.768553733825684,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8586
+      },
+      {
+        "mood": "love",
+        "score": 0.819
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7527
+      },
+      {
+        "mood": "funny",
+        "score": 0.7443
+      },
+      {
+        "mood": "fun",
+        "score": 0.663
+      },
+      {
+        "mood": "party",
+        "score": 0.6594
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6398
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.603
+      },
+      {
+        "mood": "dark",
+        "score": 0.5876
+      },
+      {
+        "mood": "sport",
+        "score": 0.5606
+      },
+      {
+        "mood": "fast",
+        "score": 0.5511
+      }
+    ]
+  },
+  {
+    "id": "50c0f1fe-92c8-4850-8135-ec3c7017453c",
+    "title": "Henry Moodie - drunk text (official video)",
+    "artist": "Henry Moodie",
+    "genre": "",
+    "view_count": 151027615,
+    "likes": 709086,
+    "release_date": "20230210",
+    "valence": 5.023884296417236,
+    "arousal": 5.108382225036621,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.894
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.732
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6718
+      },
+      {
+        "mood": "sad",
+        "score": 0.6655
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6461
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5241
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5096
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.5003
+      }
+    ]
+  },
+  {
+    "id": "3b0e9d51-9baf-4cd3-83d6-0145480effce",
+    "title": "James Arthur - Say You Won't Let Go",
+    "artist": "James Arthur",
+    "genre": "",
+    "view_count": 1723378936,
+    "likes": 9232580,
+    "release_date": "20160909",
+    "valence": 4.6531476974487305,
+    "arousal": 4.41557502746582,
+    "predicted_moods": [
+      {
+        "mood": "ballad",
+        "score": 0.9206
+      },
+      {
+        "mood": "love",
+        "score": 0.9139
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.8184
+      },
+      {
+        "mood": "romantic",
+        "score": 0.6958
+      },
+      {
+        "mood": "sad",
+        "score": 0.6957
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.6802
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6425
+      },
+      {
+        "mood": "soft",
+        "score": 0.6342
+      },
+      {
+        "mood": "drama",
+        "score": 0.6122
+      },
+      {
+        "mood": "dream",
+        "score": 0.5327
+      },
+      {
+        "mood": "travel",
+        "score": 0.5214
+      }
+    ]
+  },
+  {
+    "id": "a2ae67f1-c452-4a3e-8f6f-ce24484fb91c",
+    "title": "Jason Derulo - Swalla (feat. Nicki Minaj & Ty Dolla $ign) [Official Music Video]",
+    "artist": "Jason Derulo",
+    "genre": "",
+    "view_count": 1824959107,
+    "likes": 10200820,
+    "release_date": "20170317",
+    "valence": 6.344620227813721,
+    "arousal": 6.5527849197387695,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9284
+      },
+      {
+        "mood": "happy",
+        "score": 0.85
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.84
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8366
+      },
+      {
+        "mood": "love",
+        "score": 0.8315
+      },
+      {
+        "mood": "groovy",
+        "score": 0.8135
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7912
+      },
+      {
+        "mood": "fun",
+        "score": 0.7774
+      },
+      {
+        "mood": "party",
+        "score": 0.7722
+      },
+      {
+        "mood": "sport",
+        "score": 0.6718
+      },
+      {
+        "mood": "summer",
+        "score": 0.6399
+      },
+      {
+        "mood": "deep",
+        "score": 0.5108
+      },
+      {
+        "mood": "fast",
+        "score": 0.5019
+      }
+    ]
+  },
+  {
+    "id": "90c92f1f-6a43-471e-8279-b1eeeaabc4a8",
+    "title": "Jason Derulo - Wiggle feat. Snoop Dogg [Official Music Video]",
+    "artist": "Jason Derulo",
+    "genre": "",
+    "view_count": 1006961737,
+    "likes": 5828473,
+    "release_date": "20140521",
+    "valence": 5.385024547576904,
+    "arousal": 5.452664375305176,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8185
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7494
+      },
+      {
+        "mood": "funny",
+        "score": 0.7027
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6912
+      },
+      {
+        "mood": "happy",
+        "score": 0.6742
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6259
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6021
+      },
+      {
+        "mood": "fun",
+        "score": 0.5696
+      },
+      {
+        "mood": "party",
+        "score": 0.5358
+      },
+      {
+        "mood": "summer",
+        "score": 0.5054
+      }
+    ]
+  },
+  {
+    "id": "1dfa40b6-9c1b-4d32-9e41-eb1d062396b4",
+    "title": "Jennifer Lopez - On The Floor ft. Pitbull",
+    "artist": "Jennifer Lopez",
+    "genre": "",
+    "view_count": 2495532368,
+    "likes": 10684282,
+    "release_date": "20110304",
+    "valence": 6.768641948699951,
+    "arousal": 7.217687129974365,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8881
+      },
+      {
+        "mood": "party",
+        "score": 0.8457
+      },
+      {
+        "mood": "happy",
+        "score": 0.8425
+      },
+      {
+        "mood": "sexy",
+        "score": 0.826
+      },
+      {
+        "mood": "funny",
+        "score": 0.7773
+      },
+      {
+        "mood": "love",
+        "score": 0.7747
+      },
+      {
+        "mood": "fun",
+        "score": 0.7051
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6885
+      },
+      {
+        "mood": "sport",
+        "score": 0.6288
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6175
+      },
+      {
+        "mood": "dark",
+        "score": 0.5664
+      },
+      {
+        "mood": "retro",
+        "score": 0.5509
+      }
+    ]
+  },
+  {
+    "id": "87d9d7cb-e56b-4588-9944-88600352973b",
+    "title": "Jessie J - Bang Bang ft. Ariana Grande, Nicki Minaj",
+    "artist": "Jessie J",
+    "genre": "",
+    "view_count": 2048472979,
+    "likes": 11278228,
+    "release_date": "20140826",
+    "valence": 6.038519382476807,
+    "arousal": 8.119213104248047,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9766
+      },
+      {
+        "mood": "fun",
+        "score": 0.9591
+      },
+      {
+        "mood": "happy",
+        "score": 0.8925
+      },
+      {
+        "mood": "holiday",
+        "score": 0.8898
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8665
+      },
+      {
+        "mood": "party",
+        "score": 0.8493
+      },
+      {
+        "mood": "christmas",
+        "score": 0.8307
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8181
+      },
+      {
+        "mood": "fast",
+        "score": 0.7717
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6126
+      },
+      {
+        "mood": "powerful",
+        "score": 0.5968
+      },
+      {
+        "mood": "game",
+        "score": 0.5141
+      },
+      {
+        "mood": "sport",
+        "score": 0.5105
+      }
+    ]
+  },
+  {
+    "id": "426e1cd0-e544-4fee-a961-8bbf41d9c265",
+    "title": "John Legend - All of Me (Official Video)",
+    "artist": "John Legend",
+    "genre": "",
+    "view_count": 2481608229,
+    "likes": 13530404,
+    "release_date": "20131002",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "24a935d4-1203-4208-830c-1f85f1209d1a",
+    "title": "John Newman - Love Me Again",
+    "artist": "John Newman",
+    "genre": "",
+    "view_count": 1088265227,
+    "likes": 6915094,
+    "release_date": "20130508",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "efc6b17d-236a-4691-adb0-8e8b8302d265",
+    "title": "Justin Bieber - Baby ft. Ludacris",
+    "artist": "Justin Bieber",
+    "genre": "",
+    "view_count": 3326842307,
+    "likes": 26376438,
+    "release_date": "20100219",
+    "valence": 6.051025390625,
+    "arousal": 6.598048210144043,
+    "predicted_moods": [
+      {
+        "mood": "happy",
+        "score": 0.8996
+      },
+      {
+        "mood": "love",
+        "score": 0.8879
+      },
+      {
+        "mood": "funny",
+        "score": 0.8855
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8808
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8306
+      },
+      {
+        "mood": "party",
+        "score": 0.8054
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8044
+      },
+      {
+        "mood": "fun",
+        "score": 0.7922
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7127
+      },
+      {
+        "mood": "summer",
+        "score": 0.6798
+      },
+      {
+        "mood": "sport",
+        "score": 0.5236
+      }
+    ]
+  },
+  {
+    "id": "d413e938-7999-4ad6-a879-463130da1bbe",
+    "title": "Justin Bieber - Love Yourself (PURPOSE  The Movement)",
+    "artist": "Justin Bieber",
+    "genre": "",
+    "view_count": 1768475529,
+    "likes": 8499527,
+    "release_date": "20151114",
+    "valence": 4.8073248863220215,
+    "arousal": 4.112897872924805,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8151
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6983
+      },
+      {
+        "mood": "sad",
+        "score": 0.6788
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6331
+      },
+      {
+        "mood": "dream",
+        "score": 0.6255
+      },
+      {
+        "mood": "deep",
+        "score": 0.6241
+      },
+      {
+        "mood": "summer",
+        "score": 0.5411
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5299
+      }
+    ]
+  },
+  {
+    "id": "8e8d9bf3-a8f8-4772-a9d2-cd5ca357bb96",
+    "title": "Justin Bieber - Never Say Never ft. Jaden",
+    "artist": "Justin Bieber",
+    "genre": "",
+    "view_count": 1245156843,
+    "likes": 7895627,
+    "release_date": "20100527",
+    "valence": 6.00037145614624,
+    "arousal": 6.455588340759277,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9307
+      },
+      {
+        "mood": "happy",
+        "score": 0.8623
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8267
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7991
+      },
+      {
+        "mood": "love",
+        "score": 0.7974
+      },
+      {
+        "mood": "fun",
+        "score": 0.758
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7019
+      },
+      {
+        "mood": "summer",
+        "score": 0.6896
+      },
+      {
+        "mood": "party",
+        "score": 0.6725
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6576
+      },
+      {
+        "mood": "sport",
+        "score": 0.5534
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5117
+      }
+    ]
+  },
+  {
+    "id": "6d1966bc-e3da-41cc-8eda-e733c3466a2c",
+    "title": "Justin Bieber - Sorry (PURPOSE  The Movement)",
+    "artist": "Justin Bieber",
+    "genre": "",
+    "view_count": 3921595262,
+    "likes": 17020083,
+    "release_date": "20151022",
+    "valence": 6.533935070037842,
+    "arousal": 6.694009780883789,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.9372
+      },
+      {
+        "mood": "summer",
+        "score": 0.9369
+      },
+      {
+        "mood": "funny",
+        "score": 0.9135
+      },
+      {
+        "mood": "party",
+        "score": 0.8995
+      },
+      {
+        "mood": "deep",
+        "score": 0.8978
+      },
+      {
+        "mood": "happy",
+        "score": 0.8629
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8414
+      },
+      {
+        "mood": "love",
+        "score": 0.8328
+      },
+      {
+        "mood": "sport",
+        "score": 0.765
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7424
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7076
+      }
+    ]
+  },
+  {
+    "id": "6a616f18-6bbd-466e-9c76-d296350e6916",
+    "title": "Justin Bieber - What Do You Mean (Lyric Video)",
+    "artist": "Justin Bieber",
+    "genre": "",
+    "view_count": 241670202,
+    "likes": 1834471,
+    "release_date": "20150828",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "cfc6b3dc-e63e-4121-b87a-fd7390dc92ab",
+    "title": "Justin Timberlake - Mirrors (Official Video)",
+    "artist": "Justin Timberlake",
+    "genre": "",
+    "view_count": 1310718944,
+    "likes": 6043697,
+    "release_date": "20130320",
+    "valence": 5.071204662322998,
+    "arousal": 5.055216312408447,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8428
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6657
+      },
+      {
+        "mood": "dark",
+        "score": 0.644
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6383
+      },
+      {
+        "mood": "christmas",
+        "score": 0.6179
+      },
+      {
+        "mood": "sad",
+        "score": 0.5746
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5157
+      },
+      {
+        "mood": "fun",
+        "score": 0.5152
+      },
+      {
+        "mood": "drama",
+        "score": 0.5132
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5064
+      },
+      {
+        "mood": "ballad",
+        "score": 0.5032
+      }
+    ]
+  },
+  {
+    "id": "26a5c279-29b7-457a-bcfb-7335566a3156",
+    "title": "JVKE - golden hour (official music video)",
+    "artist": "JVKE",
+    "genre": "",
+    "view_count": 249575038,
+    "likes": 3458217,
+    "release_date": "20221012",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "bc5aa5e5-f7be-4c4f-8147-ce9a1fb91a80",
+    "title": "Katy Perry - Dark Horse ft. Juicy J",
+    "artist": "Katy Perry",
+    "genre": null,
+    "view_count": 3915684277,
+    "likes": 0,
+    "release_date": "",
+    "valence": 5.889865398406982,
+    "arousal": 6.209555625915527,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8185
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7991
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6781
+      },
+      {
+        "mood": "happy",
+        "score": 0.6744
+      },
+      {
+        "mood": "funny",
+        "score": 0.6612
+      },
+      {
+        "mood": "fun",
+        "score": 0.6183
+      },
+      {
+        "mood": "dark",
+        "score": 0.6181
+      },
+      {
+        "mood": "party",
+        "score": 0.6065
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5056
+      }
+    ]
+  },
+  {
+    "id": "9b138a77-2d28-4f62-adf3-1de7e88c418a",
+    "title": "Katy Perry - Hot N Cold (Official Music Video)",
+    "artist": "Katy Perry",
+    "genre": "",
+    "view_count": 1280617853,
+    "likes": 6171819,
+    "release_date": "20081014",
+    "valence": 5.864894390106201,
+    "arousal": 6.155341148376465,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8881
+      },
+      {
+        "mood": "funny",
+        "score": 0.8707
+      },
+      {
+        "mood": "happy",
+        "score": 0.7836
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7707
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7566
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6947
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6442
+      },
+      {
+        "mood": "summer",
+        "score": 0.6259
+      },
+      {
+        "mood": "party",
+        "score": 0.5924
+      },
+      {
+        "mood": "fun",
+        "score": 0.5753
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5512
+      }
+    ]
+  },
+  {
+    "id": "ac89f07a-2902-404a-9c50-a02152b1aec2",
+    "title": "Katy Perry - Part Of Me (Official)",
+    "artist": "Katy Perry",
+    "genre": "",
+    "view_count": 982584366,
+    "likes": 4923778,
+    "release_date": "20120321",
+    "valence": 6.8443474769592285,
+    "arousal": 7.510746002197266,
+    "predicted_moods": [
+      {
+        "mood": "happy",
+        "score": 0.9232
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.92
+      },
+      {
+        "mood": "funny",
+        "score": 0.9153
+      },
+      {
+        "mood": "party",
+        "score": 0.8867
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8853
+      },
+      {
+        "mood": "love",
+        "score": 0.88
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8237
+      },
+      {
+        "mood": "summer",
+        "score": 0.8233
+      },
+      {
+        "mood": "fun",
+        "score": 0.7732
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.7465
+      },
+      {
+        "mood": "sport",
+        "score": 0.7006
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6713
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6047
+      },
+      {
+        "mood": "positive",
+        "score": 0.5871
+      },
+      {
+        "mood": "fast",
+        "score": 0.5339
+      }
+    ]
+  },
+  {
+    "id": "c9af91f9-5a2d-43f5-939a-55a0bf4dd8c0",
+    "title": "Katy Perry - Roar",
+    "artist": "Katy Perry",
+    "genre": null,
+    "view_count": 4105688129,
+    "likes": 0,
+    "release_date": "",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "daf833f2-ff16-470b-a931-f24ad4f99e17",
+    "title": "Katy Perry - The One That Got Away (Official Music Video)",
+    "artist": "Katy Perry",
+    "genre": "",
+    "view_count": 1060396217,
+    "likes": 4950867,
+    "release_date": "20111111",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "2ebf7047-2367-4376-8c38-8459165a566b",
+    "title": "Katy Perry - Wide Awake (Official Video)",
+    "artist": "Katy Perry",
+    "genre": "",
+    "view_count": 1047893162,
+    "likes": 4592011,
+    "release_date": "20120618",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "d188027e-2726-45d2-84e0-4d2b357b60ae",
+    "title": "Lady Gaga - Bad Romance (Official Music Video)",
+    "artist": "Lady Gaga",
+    "genre": "",
+    "view_count": 1907336542,
+    "likes": 9533409,
+    "release_date": "20091124",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "27282df3-2777-44d7-ab19-bcf73e1eb97d",
+    "title": "Lady Gaga - Poker Face (Official Music Video)",
+    "artist": "Lady Gaga",
+    "genre": "",
+    "view_count": 1464326364,
+    "likes": 7793181,
+    "release_date": "20091220",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "a6527b3f-2292-4658-9e42-77283f7d41d1",
+    "title": "Lady Gaga, Bradley Cooper - Shallow (from A Star Is Born) (Official Music Video)",
+    "artist": "Lady Gaga",
+    "genre": "",
+    "view_count": 1745353497,
+    "likes": 8472580,
+    "release_date": "20180927",
+    "valence": 4.73383092880249,
+    "arousal": 6.158430099487305,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.7868
+      },
+      {
+        "mood": "dark",
+        "score": 0.7138
+      },
+      {
+        "mood": "travel",
+        "score": 0.6236
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6088
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6061
+      },
+      {
+        "mood": "christmas",
+        "score": 0.5648
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5459
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5414
+      }
+    ]
+  },
+  {
+    "id": "4e06fb72-1c99-4918-b5b2-4646e2598f3d",
+    "title": "Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)",
+    "artist": "Lady Gaga",
+    "genre": "",
+    "view_count": 716951615,
+    "likes": 8546374,
+    "release_date": "20240816",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "779a433f-314a-4a53-aa48-b96ee2d72063",
+    "title": "Last Friday Night (T.G.I.F.)",
+    "artist": "Katy Perry",
+    "genre": "",
+    "view_count": 70202730,
+    "likes": 459139,
+    "release_date": "20170311",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "9d30c5a2-f0e5-4ba3-b5bc-d02f47d5286c",
+    "title": "Lewis Capaldi - Someone You Loved",
+    "artist": "Lewis Capaldi",
+    "genre": "",
+    "view_count": 994228562,
+    "likes": 9912430,
+    "release_date": "20190829",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "da08cfad-579a-42ef-9a6b-fc1728c9713f",
+    "title": "Little Mix - Black Magic (Official Video)",
+    "artist": "Little Mix",
+    "genre": "",
+    "view_count": 1080201469,
+    "likes": 8248223,
+    "release_date": "20150529",
+    "valence": 6.077597141265869,
+    "arousal": 6.039989471435547,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8887
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7869
+      },
+      {
+        "mood": "happy",
+        "score": 0.7579
+      },
+      {
+        "mood": "fun",
+        "score": 0.75
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7496
+      },
+      {
+        "mood": "funny",
+        "score": 0.6838
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6638
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6464
+      },
+      {
+        "mood": "party",
+        "score": 0.6129
+      },
+      {
+        "mood": "sport",
+        "score": 0.5493
+      }
+    ]
+  },
+  {
+    "id": "ba83a802-a421-4b15-8cd0-ef98aff3f462",
+    "title": "Lola Young - Messy (Official Video)",
+    "artist": "Lola Young",
+    "genre": "",
+    "view_count": 40027501,
+    "likes": 547349,
+    "release_date": "20240530",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "7d03d888-52ef-4b33-b4ca-bd9dbc852e8f",
+    "title": "Lorde - Royals (US Version)",
+    "artist": "Lorde",
+    "genre": "",
+    "view_count": 973072348,
+    "likes": 4849812,
+    "release_date": "20130618",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "0aca8105-b495-4ce9-9a34-de74e0172491",
+    "title": "Loreen - Tattoo (Official Lyric Video)",
+    "artist": "Loreen",
+    "genre": "",
+    "view_count": 124328332,
+    "likes": 800698,
+    "release_date": "20230225",
+    "valence": 6.4154229164123535,
+    "arousal": 7.758530139923096,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.9007
+      },
+      {
+        "mood": "christmas",
+        "score": 0.8429
+      },
+      {
+        "mood": "holiday",
+        "score": 0.8358
+      },
+      {
+        "mood": "fun",
+        "score": 0.8281
+      },
+      {
+        "mood": "love",
+        "score": 0.8068
+      },
+      {
+        "mood": "funny",
+        "score": 0.8034
+      },
+      {
+        "mood": "party",
+        "score": 0.7485
+      },
+      {
+        "mood": "happy",
+        "score": 0.7322
+      },
+      {
+        "mood": "powerful",
+        "score": 0.7019
+      },
+      {
+        "mood": "fast",
+        "score": 0.6742
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6442
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6012
+      }
+    ]
+  },
+  {
+    "id": "e60592d4-701c-4757-8ef5-46f40f64c1a2",
+    "title": "Lukas Graham - 7 Years [Official Music Video]",
+    "artist": "Lukas Graham",
+    "genre": "",
+    "view_count": 1604543416,
+    "likes": 11663888,
+    "release_date": "20151215",
+    "valence": 5.789993762969971,
+    "arousal": 5.6927170753479,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8459
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7906
+      },
+      {
+        "mood": "funny",
+        "score": 0.7858
+      },
+      {
+        "mood": "happy",
+        "score": 0.7471
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6701
+      },
+      {
+        "mood": "summer",
+        "score": 0.6259
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5716
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5508
+      },
+      {
+        "mood": "party",
+        "score": 0.5099
+      }
+    ]
+  },
+  {
+    "id": "d89df051-a7dc-41c4-a74b-eccd474f419b",
+    "title": "Madison Beer - Make You Mine (Official Music Video)",
+    "artist": "Madison Beer",
+    "genre": "",
+    "view_count": 77935661,
+    "likes": 1197560,
+    "release_date": "20240424",
+    "valence": 5.411262035369873,
+    "arousal": 4.913914680480957,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8582
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7628
+      },
+      {
+        "mood": "summer",
+        "score": 0.6893
+      },
+      {
+        "mood": "deep",
+        "score": 0.6506
+      },
+      {
+        "mood": "happy",
+        "score": 0.6428
+      },
+      {
+        "mood": "dream",
+        "score": 0.6087
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5542
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5382
+      },
+      {
+        "mood": "dark",
+        "score": 0.5274
+      }
+    ]
+  },
+  {
+    "id": "35463958-1c5c-4817-98b9-fa27e1a2f2b5",
+    "title": "MAGIC! - Rude (Official Video)",
+    "artist": "MAGIC!",
+    "genre": "",
+    "view_count": 2547267607,
+    "likes": 12126855,
+    "release_date": "20131206",
+    "valence": 5.355847358703613,
+    "arousal": 5.104764938354492,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8942
+      },
+      {
+        "mood": "ballad",
+        "score": 0.8502
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.7179
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.7069
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6617
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6089
+      },
+      {
+        "mood": "sad",
+        "score": 0.6049
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5989
+      },
+      {
+        "mood": "dark",
+        "score": 0.5871
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5786
+      },
+      {
+        "mood": "travel",
+        "score": 0.5715
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5296
+      },
+      {
+        "mood": "dream",
+        "score": 0.5176
+      },
+      {
+        "mood": "drama",
+        "score": 0.5155
+      }
+    ]
+  },
+  {
+    "id": "f6f1bcb9-7e6c-4156-8d73-053ce150a82c",
+    "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+    "artist": "Mark Ronson",
+    "genre": null,
+    "view_count": 5488941032,
+    "likes": 0,
+    "release_date": "",
+    "valence": 5.585447788238525,
+    "arousal": 5.986395835876465,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9046
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7956
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7848
+      },
+      {
+        "mood": "sport",
+        "score": 0.7096
+      },
+      {
+        "mood": "happy",
+        "score": 0.6864
+      },
+      {
+        "mood": "summer",
+        "score": 0.6423
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6325
+      },
+      {
+        "mood": "love",
+        "score": 0.6218
+      },
+      {
+        "mood": "party",
+        "score": 0.5413
+      },
+      {
+        "mood": "deep",
+        "score": 0.5324
+      },
+      {
+        "mood": "fun",
+        "score": 0.513
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5114
+      }
+    ]
+  },
+  {
+    "id": "a7a941b8-9d08-4468-afed-af37a6156530",
+    "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+    "artist": "Maroon 5",
+    "genre": "",
+    "view_count": 3777275833,
+    "likes": 22154294,
+    "release_date": "20180531",
+    "valence": 5.028216361999512,
+    "arousal": 4.877657890319824,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8973
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7182
+      },
+      {
+        "mood": "ballad",
+        "score": 0.7066
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6809
+      },
+      {
+        "mood": "sad",
+        "score": 0.6092
+      },
+      {
+        "mood": "funny",
+        "score": 0.5365
+      },
+      {
+        "mood": "summer",
+        "score": 0.5195
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5038
+      }
+    ]
+  },
+  {
+    "id": "881d3d51-103b-464d-89af-eabeb7e4cf5b",
+    "title": "Maroon 5 - Memories (Official Video)",
+    "artist": "Maroon 5",
+    "genre": "",
+    "view_count": 1106883796,
+    "likes": 9915966,
+    "release_date": "20191008",
+    "valence": 5.409674167633057,
+    "arousal": 5.196286678314209,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8254
+      },
+      {
+        "mood": "sexy",
+        "score": 0.751
+      },
+      {
+        "mood": "happy",
+        "score": 0.6869
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6524
+      },
+      {
+        "mood": "summer",
+        "score": 0.6024
+      },
+      {
+        "mood": "funny",
+        "score": 0.6004
+      },
+      {
+        "mood": "party",
+        "score": 0.5694
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5351
+      },
+      {
+        "mood": "fun",
+        "score": 0.5175
+      }
+    ]
+  },
+  {
+    "id": "3f3256c9-28f2-4340-88b6-d632dce2b00b",
+    "title": "Maroon 5 - One More Night (Official Music Video)",
+    "artist": "Maroon 5",
+    "genre": "",
+    "view_count": 1146428796,
+    "likes": 4829166,
+    "release_date": "20120626",
+    "valence": 6.79627799987793,
+    "arousal": 7.732052803039551,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.9136
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8434
+      },
+      {
+        "mood": "fun",
+        "score": 0.8335
+      },
+      {
+        "mood": "funny",
+        "score": 0.8287
+      },
+      {
+        "mood": "happy",
+        "score": 0.7766
+      },
+      {
+        "mood": "party",
+        "score": 0.7637
+      },
+      {
+        "mood": "love",
+        "score": 0.7634
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7628
+      },
+      {
+        "mood": "sport",
+        "score": 0.7511
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7261
+      },
+      {
+        "mood": "fast",
+        "score": 0.7192
+      },
+      {
+        "mood": "powerful",
+        "score": 0.7097
+      },
+      {
+        "mood": "dark",
+        "score": 0.7074
+      }
+    ]
+  },
+  {
+    "id": "cb4f78df-3a39-42a4-89c4-1d78432debf2",
+    "title": "Maroon 5 - Sugar (Official Music Video)",
+    "artist": "Maroon 5",
+    "genre": null,
+    "view_count": 4190755697,
+    "likes": 0,
+    "release_date": "",
+    "valence": 5.825113296508789,
+    "arousal": 6.706311225891113,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8246
+      },
+      {
+        "mood": "funny",
+        "score": 0.7936
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7649
+      },
+      {
+        "mood": "dark",
+        "score": 0.7306
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7163
+      },
+      {
+        "mood": "happy",
+        "score": 0.7093
+      },
+      {
+        "mood": "fun",
+        "score": 0.7053
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6921
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6324
+      },
+      {
+        "mood": "sport",
+        "score": 0.5884
+      },
+      {
+        "mood": "party",
+        "score": 0.5357
+      }
+    ]
+  },
+  {
+    "id": "dccc9de9-2921-4fc5-9813-df74a930de23",
+    "title": "Marshmello & Anne-Marie - FRIENDS (Music Video) OFFICIAL FRIENDZONE ANTHEM",
+    "artist": "Marshmello",
+    "genre": "",
+    "view_count": 1083414517,
+    "likes": 12589229,
+    "release_date": "20180216",
+    "valence": 6.638980388641357,
+    "arousal": 7.093117713928223,
+    "predicted_moods": [
+      {
+        "mood": "fun",
+        "score": 0.9113
+      },
+      {
+        "mood": "funny",
+        "score": 0.9012
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8606
+      },
+      {
+        "mood": "happy",
+        "score": 0.7884
+      },
+      {
+        "mood": "party",
+        "score": 0.7756
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7609
+      },
+      {
+        "mood": "love",
+        "score": 0.7516
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7372
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7101
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6873
+      },
+      {
+        "mood": "fast",
+        "score": 0.6562
+      },
+      {
+        "mood": "sport",
+        "score": 0.6202
+      },
+      {
+        "mood": "powerful",
+        "score": 0.6165
+      },
+      {
+        "mood": "dark",
+        "score": 0.5895
+      }
+    ]
+  },
+  {
+    "id": "202d49b0-c091-4909-868e-fa3426fada85",
+    "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
+    "artist": "Marshmello",
+    "genre": "",
+    "view_count": 1285961452,
+    "likes": 15526476,
+    "release_date": "20180924",
+    "valence": 5.966223239898682,
+    "arousal": 6.0920939445495605,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8911
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6928
+      },
+      {
+        "mood": "funny",
+        "score": 0.6877
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6741
+      },
+      {
+        "mood": "fun",
+        "score": 0.6225
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5789
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5349
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5312
+      },
+      {
+        "mood": "happy",
+        "score": 0.5247
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5211
+      },
+      {
+        "mood": "dark",
+        "score": 0.514
+      }
+    ]
+  },
+  {
+    "id": "4551f62d-8378-43cc-8f2b-000b71cf5705",
+    "title": "Meghan Trainor - All About That Bass (Official Video)",
+    "artist": "Meghan Trainor",
+    "genre": "",
+    "view_count": 2657116021,
+    "likes": 9937464,
+    "release_date": "20140611",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "91e25807-6ef8-4c8a-9929-f70602e813c2",
+    "title": "Michael Jackson - Smooth Criminal (Official Video - Shortened Version)",
+    "artist": "Michael Jackson",
+    "genre": "",
+    "view_count": 102909140,
+    "likes": 636303,
+    "release_date": "20091003",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "f15d6ae8-6aba-4212-9ea3-744f1f44bb59",
+    "title": "Miley Cyrus - Flowers (Official Video)",
+    "artist": "Miley Cyrus",
+    "genre": "",
+    "view_count": 985011060,
+    "likes": 8514437,
+    "release_date": "20230113",
+    "valence": 6.061755657196045,
+    "arousal": 6.386251926422119,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8226
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7977
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7902
+      },
+      {
+        "mood": "funny",
+        "score": 0.7848
+      },
+      {
+        "mood": "happy",
+        "score": 0.7776
+      },
+      {
+        "mood": "summer",
+        "score": 0.7373
+      },
+      {
+        "mood": "party",
+        "score": 0.7268
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6914
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6631
+      },
+      {
+        "mood": "sport",
+        "score": 0.6544
+      },
+      {
+        "mood": "deep",
+        "score": 0.5745
+      },
+      {
+        "mood": "fun",
+        "score": 0.5026
+      }
+    ]
+  },
+  {
+    "id": "4f063b6d-7601-4612-822b-4799785967f9",
+    "title": "Miley Cyrus - Party In The U.S.A. (Official Video)",
+    "artist": "HollywoodRecordsVEVO",
+    "genre": "",
+    "view_count": 1043936527,
+    "likes": 4700193,
+    "release_date": "20090925",
+    "valence": 6.3157734870910645,
+    "arousal": 6.356363296508789,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8558
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7503
+      },
+      {
+        "mood": "funny",
+        "score": 0.7485
+      },
+      {
+        "mood": "happy",
+        "score": 0.744
+      },
+      {
+        "mood": "fun",
+        "score": 0.6463
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6447
+      },
+      {
+        "mood": "party",
+        "score": 0.6283
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.616
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6054
+      },
+      {
+        "mood": "dark",
+        "score": 0.5734
+      },
+      {
+        "mood": "summer",
+        "score": 0.5339
+      }
+    ]
+  },
+  {
+    "id": "045ac108-e246-4677-af5c-a8d18a8e7fd4",
+    "title": "Miley Cyrus - We Can't Stop (Official Video)",
+    "artist": "Miley Cyrus",
+    "genre": "",
+    "view_count": 993612269,
+    "likes": 4790454,
+    "release_date": "20130619",
+    "valence": 5.849400997161865,
+    "arousal": 5.886473178863525,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.906
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7538
+      },
+      {
+        "mood": "fun",
+        "score": 0.7403
+      },
+      {
+        "mood": "happy",
+        "score": 0.7152
+      },
+      {
+        "mood": "funny",
+        "score": 0.7065
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6096
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6094
+      },
+      {
+        "mood": "party",
+        "score": 0.609
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5714
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5649
+      }
+    ]
+  },
+  {
+    "id": "f5441431-3298-46e6-aa48-b269b6977ebd",
+    "title": "Miley Cyrus - Wrecking Ball (Official Video)",
+    "artist": "Miley Cyrus",
+    "genre": "",
+    "view_count": 1216765120,
+    "likes": 7270742,
+    "release_date": "20130909",
+    "valence": 5.469770908355713,
+    "arousal": 5.560811519622803,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8608
+      },
+      {
+        "mood": "holiday",
+        "score": 0.7585
+      },
+      {
+        "mood": "christmas",
+        "score": 0.6803
+      },
+      {
+        "mood": "funny",
+        "score": 0.6397
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6294
+      },
+      {
+        "mood": "fun",
+        "score": 0.6233
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6183
+      },
+      {
+        "mood": "dark",
+        "score": 0.5375
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5365
+      }
+    ]
+  },
+  {
+    "id": "33e0bb64-c125-4d07-9ea2-d10716f7e833",
+    "title": "MIRA - Duro  Lyric Video",
+    "artist": "MIRA",
+    "genre": "",
+    "view_count": 3385672,
+    "likes": 8249,
+    "release_date": "20240412",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "740e5886-d389-4863-895b-411eab37307b",
+    "title": "MIRA - Love Again (Lyric Video)",
+    "artist": "MIRA",
+    "genre": "",
+    "view_count": 10897634,
+    "likes": 15187,
+    "release_date": "20240630",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "2919642b-bf31-4863-8376-2783b95fc470",
+    "title": "MIRA - Ring, Ring  Official Video",
+    "artist": "MIRA",
+    "genre": "",
+    "view_count": 14724751,
+    "likes": 29109,
+    "release_date": "20240409",
+    "valence": 7.325540542602539,
+    "arousal": 7.269134044647217,
+    "predicted_moods": [
+      {
+        "mood": "summer",
+        "score": 0.9735
+      },
+      {
+        "mood": "funny",
+        "score": 0.9733
+      },
+      {
+        "mood": "happy",
+        "score": 0.95
+      },
+      {
+        "mood": "sexy",
+        "score": 0.9473
+      },
+      {
+        "mood": "party",
+        "score": 0.9211
+      },
+      {
+        "mood": "deep",
+        "score": 0.899
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8614
+      },
+      {
+        "mood": "love",
+        "score": 0.8106
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7039
+      },
+      {
+        "mood": "sport",
+        "score": 0.7005
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6868
+      },
+      {
+        "mood": "fun",
+        "score": 0.6151
+      },
+      {
+        "mood": "positive",
+        "score": 0.5376
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5155
+      }
+    ]
+  },
+  {
+    "id": "5c078cc4-77e5-45e0-9514-795f23799c78",
+    "title": "Music After Midnight",
+    "artist": "The Council Of Thirteen",
+    "genre": "",
+    "view_count": 13029,
+    "likes": 32,
+    "release_date": "20241222",
+    "valence": 7.215892791748047,
+    "arousal": 6.498120307922363,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9324
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8279
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.8274
+      },
+      {
+        "mood": "groovy",
+        "score": 0.8031
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7491
+      },
+      {
+        "mood": "ballad",
+        "score": 0.7363
+      },
+      {
+        "mood": "sport",
+        "score": 0.6923
+      },
+      {
+        "mood": "melodic",
+        "score": 0.6889
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6292
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5971
+      },
+      {
+        "mood": "funny",
+        "score": 0.5677
+      },
+      {
+        "mood": "sad",
+        "score": 0.5534
+      },
+      {
+        "mood": "fun",
+        "score": 0.5483
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5285
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5179
+      },
+      {
+        "mood": "party",
+        "score": 0.517
+      },
+      {
+        "mood": "fast",
+        "score": 0.5032
+      },
+      {
+        "mood": "motivational",
+        "score": 0.5011
+      }
+    ]
+  },
+  {
+    "id": "110c5e1a-89ba-4242-b6b8-b1ed8f4fad68",
+    "title": "Naughty Boy - La la la ft. Sam Smith (Official Video)",
+    "artist": "Naughty Boy",
+    "genre": "",
+    "view_count": 1329237715,
+    "likes": 8339172,
+    "release_date": "20130418",
+    "valence": 5.943975448608398,
+    "arousal": 5.747875690460205,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.8393
+      },
+      {
+        "mood": "love",
+        "score": 0.7906
+      },
+      {
+        "mood": "funny",
+        "score": 0.7534
+      },
+      {
+        "mood": "party",
+        "score": 0.6805
+      },
+      {
+        "mood": "happy",
+        "score": 0.6732
+      },
+      {
+        "mood": "summer",
+        "score": 0.6491
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6449
+      },
+      {
+        "mood": "fun",
+        "score": 0.6122
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5683
+      },
+      {
+        "mood": "dark",
+        "score": 0.5275
+      },
+      {
+        "mood": "deep",
+        "score": 0.5066
+      }
+    ]
+  },
+  {
+    "id": "2e852716-4d51-4b0e-a5a6-557b8f776bef",
+    "title": "Nicki Minaj - Super Bass (Official Video)",
+    "artist": "Nicki Minaj",
+    "genre": "",
+    "view_count": 1057153085,
+    "likes": 4951001,
+    "release_date": "20110505",
+    "valence": 6.575732707977295,
+    "arousal": 6.492345333099365,
+    "predicted_moods": [
+      {
+        "mood": "fun",
+        "score": 0.7623
+      },
+      {
+        "mood": "happy",
+        "score": 0.7476
+      },
+      {
+        "mood": "love",
+        "score": 0.743
+      },
+      {
+        "mood": "funny",
+        "score": 0.7167
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7107
+      },
+      {
+        "mood": "party",
+        "score": 0.7073
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6863
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6647
+      },
+      {
+        "mood": "summer",
+        "score": 0.5501
+      },
+      {
+        "mood": "dark",
+        "score": 0.5449
+      },
+      {
+        "mood": "sport",
+        "score": 0.5252
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5044
+      },
+      {
+        "mood": "commercial",
+        "score": 0.5011
+      }
+    ]
+  },
+  {
+    "id": "eb001eed-7a7b-480a-875b-fe2a45dc8289",
+    "title": "One Direction - Drag Me Down (Official Video)",
+    "artist": "One Direction",
+    "genre": "",
+    "view_count": 1096968048,
+    "likes": 9691528,
+    "release_date": "20150821",
+    "valence": 5.8129706382751465,
+    "arousal": 6.695312976837158,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8433
+      },
+      {
+        "mood": "love",
+        "score": 0.7666
+      },
+      {
+        "mood": "funny",
+        "score": 0.7498
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7487
+      },
+      {
+        "mood": "sport",
+        "score": 0.6912
+      },
+      {
+        "mood": "dark",
+        "score": 0.6862
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6457
+      },
+      {
+        "mood": "fun",
+        "score": 0.6345
+      },
+      {
+        "mood": "fast",
+        "score": 0.6052
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5977
+      },
+      {
+        "mood": "happy",
+        "score": 0.5664
+      },
+      {
+        "mood": "adventure",
+        "score": 0.5593
+      }
+    ]
+  },
+  {
+    "id": "dc93eca7-e34b-431d-a6c2-3afff887cb07",
+    "title": "One Direction - Story of My Life",
+    "artist": "One Direction",
+    "genre": "",
+    "view_count": 1038269242,
+    "likes": 8487878,
+    "release_date": "20131103",
+    "valence": 5.925943851470947,
+    "arousal": 5.471893310546875,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9114
+      },
+      {
+        "mood": "sexy",
+        "score": 0.732
+      },
+      {
+        "mood": "funny",
+        "score": 0.6908
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6836
+      },
+      {
+        "mood": "summer",
+        "score": 0.6267
+      },
+      {
+        "mood": "happy",
+        "score": 0.5461
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5419
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5152
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5096
+      }
+    ]
+  },
+  {
+    "id": "3bb34aa0-9a6d-4feb-86a9-c88c52a6d191",
+    "title": "One Direction - What Makes You Beautiful (Official Video)",
+    "artist": "One Direction",
+    "genre": "",
+    "view_count": 1601204695,
+    "likes": 12402830,
+    "release_date": "20110819",
+    "valence": 6.544244766235352,
+    "arousal": 6.913520812988281,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8834
+      },
+      {
+        "mood": "love",
+        "score": 0.8431
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8169
+      },
+      {
+        "mood": "fun",
+        "score": 0.8038
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7664
+      },
+      {
+        "mood": "funny",
+        "score": 0.7459
+      },
+      {
+        "mood": "fast",
+        "score": 0.7448
+      },
+      {
+        "mood": "happy",
+        "score": 0.6723
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6705
+      },
+      {
+        "mood": "sport",
+        "score": 0.6648
+      },
+      {
+        "mood": "party",
+        "score": 0.6499
+      },
+      {
+        "mood": "powerful",
+        "score": 0.547
+      },
+      {
+        "mood": "dark",
+        "score": 0.5172
+      },
+      {
+        "mood": "adventure",
+        "score": 0.5099
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5023
+      }
+    ]
+  },
+  {
+    "id": "1b9a23e9-bd06-4c47-9b71-dd7789fdd9ea",
+    "title": "OneRepublic - I Ain\u2019t Worried (From \u201cTop Gun Maverick\u201d) [Official Music Video]",
+    "artist": "OneRepublic",
+    "genre": "",
+    "view_count": 376836505,
+    "likes": 2675856,
+    "release_date": "20220513",
+    "valence": 6.691629409790039,
+    "arousal": 6.688009262084961,
+    "predicted_moods": [
+      {
+        "mood": "upbeat",
+        "score": 0.8736
+      },
+      {
+        "mood": "groovy",
+        "score": 0.8715
+      },
+      {
+        "mood": "funny",
+        "score": 0.853
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8077
+      },
+      {
+        "mood": "sport",
+        "score": 0.8076
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7978
+      },
+      {
+        "mood": "happy",
+        "score": 0.7649
+      },
+      {
+        "mood": "party",
+        "score": 0.7624
+      },
+      {
+        "mood": "fun",
+        "score": 0.7544
+      },
+      {
+        "mood": "fast",
+        "score": 0.7523
+      },
+      {
+        "mood": "love",
+        "score": 0.6692
+      },
+      {
+        "mood": "positive",
+        "score": 0.6552
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5423
+      }
+    ]
+  },
+  {
+    "id": "df264593-9d63-401f-9121-3a4e11117114",
+    "title": "P!nk - Just Give Me A Reason ft. Nate Ruess",
+    "artist": "P!NK",
+    "genre": "",
+    "view_count": 1879792775,
+    "likes": 7270414,
+    "release_date": "20130205",
+    "valence": 4.838928699493408,
+    "arousal": 5.336282730102539,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9297
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6719
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6281
+      },
+      {
+        "mood": "fun",
+        "score": 0.6242
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6062
+      },
+      {
+        "mood": "drama",
+        "score": 0.575
+      },
+      {
+        "mood": "sad",
+        "score": 0.5575
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5047
+      }
+    ]
+  },
+  {
+    "id": "0bbdca75-7db2-4230-86a8-23a9231f0d4c",
+    "title": "Passenger  Let Her Go (Official Video)",
+    "artist": "Passenger",
+    "genre": "",
+    "view_count": 3781242124,
+    "likes": 17562071,
+    "release_date": "20120725",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "98d2a449-be31-4037-ac18-cf942668718e",
+    "title": "Pharrell Williams - Happy (Video)",
+    "artist": "Pharrell Williams",
+    "genre": "",
+    "view_count": 1396791122,
+    "likes": 9167653,
+    "release_date": "20140108",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "3656d75b-9579-4f35-971b-01a6f275cd4c",
+    "title": "Pitbull - Give Me Everything ft. Ne-Yo, Afrojack, Nayer",
+    "artist": "Pitbull",
+    "genre": "",
+    "view_count": 1213695014,
+    "likes": 5161332,
+    "release_date": "20110506",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "eab98217-3754-49dd-9543-879a3cc329ce",
+    "title": "Pitbull - Rain Over Me ft. Marc Anthony",
+    "artist": "Pitbull",
+    "genre": "",
+    "view_count": 1372642094,
+    "likes": 4975185,
+    "release_date": "20110722",
+    "valence": 5.922935962677002,
+    "arousal": 7.376657485961914,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8708
+      },
+      {
+        "mood": "funny",
+        "score": 0.8598
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8331
+      },
+      {
+        "mood": "happy",
+        "score": 0.8095
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7999
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7636
+      },
+      {
+        "mood": "summer",
+        "score": 0.7567
+      },
+      {
+        "mood": "sport",
+        "score": 0.7054
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6423
+      },
+      {
+        "mood": "love",
+        "score": 0.6328
+      },
+      {
+        "mood": "deep",
+        "score": 0.6071
+      },
+      {
+        "mood": "dark",
+        "score": 0.5574
+      }
+    ]
+  },
+  {
+    "id": "d20bf4a7-f9af-4d8f-8314-60c3761653d5",
+    "title": "Pitbull, Ke$ha - Timber (featuring Ke$ha - Official Video)",
+    "artist": "Pitbull",
+    "genre": "",
+    "view_count": 1531115898,
+    "likes": 6198944,
+    "release_date": "20131125",
+    "valence": 6.303032398223877,
+    "arousal": 7.345170021057129,
+    "predicted_moods": [
+      {
+        "mood": "happy",
+        "score": 0.8761
+      },
+      {
+        "mood": "funny",
+        "score": 0.8753
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8721
+      },
+      {
+        "mood": "fun",
+        "score": 0.8099
+      },
+      {
+        "mood": "party",
+        "score": 0.7959
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7618
+      },
+      {
+        "mood": "love",
+        "score": 0.7443
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7176
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6134
+      },
+      {
+        "mood": "fast",
+        "score": 0.612
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6111
+      },
+      {
+        "mood": "sport",
+        "score": 0.5937
+      },
+      {
+        "mood": "dark",
+        "score": 0.541
+      },
+      {
+        "mood": "summer",
+        "score": 0.5342
+      },
+      {
+        "mood": "powerful",
+        "score": 0.5192
+      }
+    ]
+  },
+  {
+    "id": "432b20ac-1051-4693-99a8-afd2e34a141e",
+    "title": "R. City - Locked Away ft. Adam Levine",
+    "artist": "Rock City",
+    "genre": "",
+    "view_count": 1071569557,
+    "likes": 6146982,
+    "release_date": "20150814",
+    "valence": 4.465267658233643,
+    "arousal": 4.360663890838623,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.858
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.792
+      },
+      {
+        "mood": "sad",
+        "score": 0.7624
+      },
+      {
+        "mood": "dark",
+        "score": 0.7126
+      },
+      {
+        "mood": "ballad",
+        "score": 0.6965
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5935
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5242
+      },
+      {
+        "mood": "dream",
+        "score": 0.5156
+      },
+      {
+        "mood": "slow",
+        "score": 0.5132
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5095
+      }
+    ]
+  },
+  {
+    "id": "e0ce09d5-4e67-4619-81c3-150145e0b74b",
+    "title": "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+    "artist": "Rick Astley",
+    "genre": "",
+    "view_count": 1625715855,
+    "likes": 18184118,
+    "release_date": "20091025",
+    "valence": 6.753945350646973,
+    "arousal": 6.731032371520996,
+    "predicted_moods": [
+      {
+        "mood": "summer",
+        "score": 0.8973
+      },
+      {
+        "mood": "funny",
+        "score": 0.8845
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8681
+      },
+      {
+        "mood": "happy",
+        "score": 0.8387
+      },
+      {
+        "mood": "love",
+        "score": 0.8285
+      },
+      {
+        "mood": "party",
+        "score": 0.7669
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7607
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7509
+      },
+      {
+        "mood": "deep",
+        "score": 0.7391
+      },
+      {
+        "mood": "sport",
+        "score": 0.6944
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5741
+      }
+    ]
+  },
+  {
+    "id": "54945e77-d432-4f14-8c00-ceaa4c910573",
+    "title": "Rihanna - Diamonds",
+    "artist": "Rihanna",
+    "genre": "",
+    "view_count": 2398252437,
+    "likes": 11911036,
+    "release_date": "20121109",
+    "valence": 5.806487560272217,
+    "arousal": 6.557946681976318,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.8516
+      },
+      {
+        "mood": "party",
+        "score": 0.8493
+      },
+      {
+        "mood": "love",
+        "score": 0.8449
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7758
+      },
+      {
+        "mood": "happy",
+        "score": 0.7517
+      },
+      {
+        "mood": "summer",
+        "score": 0.7224
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7154
+      },
+      {
+        "mood": "fun",
+        "score": 0.7118
+      },
+      {
+        "mood": "funny",
+        "score": 0.6679
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5809
+      },
+      {
+        "mood": "sport",
+        "score": 0.5168
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5102
+      }
+    ]
+  },
+  {
+    "id": "83d30291-242d-4878-84f8-a34985ab187c",
+    "title": "Rihanna - Only Girl (In The World)",
+    "artist": "Rihanna",
+    "genre": "",
+    "view_count": 964787571,
+    "likes": 3389240,
+    "release_date": "20101012",
+    "valence": 6.908301830291748,
+    "arousal": 7.456679344177246,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.9097
+      },
+      {
+        "mood": "funny",
+        "score": 0.9067
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8858
+      },
+      {
+        "mood": "summer",
+        "score": 0.8587
+      },
+      {
+        "mood": "happy",
+        "score": 0.8562
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8384
+      },
+      {
+        "mood": "love",
+        "score": 0.8105
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7985
+      },
+      {
+        "mood": "fun",
+        "score": 0.7167
+      },
+      {
+        "mood": "deep",
+        "score": 0.5891
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5629
+      },
+      {
+        "mood": "sport",
+        "score": 0.5536
+      }
+    ]
+  },
+  {
+    "id": "0430ff10-1468-49b5-87cd-2d6d579de168",
+    "title": "Rihanna - Stay ft. Mikky Ekko",
+    "artist": "Rihanna",
+    "genre": "",
+    "view_count": 1160677207,
+    "likes": 5161585,
+    "release_date": "20130212",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "3cd69225-d584-44ce-b709-1338cb5b0e92",
+    "title": "Rihanna - We Found Love ft. Calvin Harris",
+    "artist": "Rihanna",
+    "genre": "",
+    "view_count": 1156001486,
+    "likes": 5172603,
+    "release_date": "20111020",
+    "valence": 6.686357021331787,
+    "arousal": 7.136593818664551,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8729
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8178
+      },
+      {
+        "mood": "funny",
+        "score": 0.7869
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7843
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7609
+      },
+      {
+        "mood": "love",
+        "score": 0.673
+      },
+      {
+        "mood": "summer",
+        "score": 0.6481
+      },
+      {
+        "mood": "happy",
+        "score": 0.6402
+      },
+      {
+        "mood": "fun",
+        "score": 0.6333
+      },
+      {
+        "mood": "sport",
+        "score": 0.6033
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5776
+      },
+      {
+        "mood": "fast",
+        "score": 0.5091
+      }
+    ]
+  },
+  {
+    "id": "778b0ef8-8d0b-495c-9167-b6b449a15ad8",
+    "title": "Rihanna - What's My Name ft. Drake",
+    "artist": "Rihanna",
+    "genre": "",
+    "view_count": 1051399311,
+    "likes": 3598251,
+    "release_date": "20101112",
+    "valence": 5.919081687927246,
+    "arousal": 5.924478054046631,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8283
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7507
+      },
+      {
+        "mood": "fun",
+        "score": 0.708
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6966
+      },
+      {
+        "mood": "happy",
+        "score": 0.6702
+      },
+      {
+        "mood": "funny",
+        "score": 0.6427
+      },
+      {
+        "mood": "party",
+        "score": 0.6314
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5769
+      },
+      {
+        "mood": "summer",
+        "score": 0.5095
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5023
+      }
+    ]
+  },
+  {
+    "id": "b51eeba0-b2ce-4388-9d6b-4331d5c13ad7",
+    "title": "ROSE\u0301 & Bruno Mars - APT. (Official Music Video)",
+    "artist": "ROS\u00c9",
+    "genre": null,
+    "view_count": 1153146738,
+    "likes": 0,
+    "release_date": "",
+    "valence": 6.100682258605957,
+    "arousal": 6.165953636169434,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8734
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8363
+      },
+      {
+        "mood": "funny",
+        "score": 0.8019
+      },
+      {
+        "mood": "fun",
+        "score": 0.7171
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7077
+      },
+      {
+        "mood": "happy",
+        "score": 0.6858
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6758
+      },
+      {
+        "mood": "fast",
+        "score": 0.6138
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6132
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5553
+      },
+      {
+        "mood": "party",
+        "score": 0.518
+      }
+    ]
+  },
+  {
+    "id": "01c5653b-e12d-4ff7-91a5-827f7f99415a",
+    "title": "Sabrina Carpenter - Espresso (Official Video)",
+    "artist": "Sabrina Carpenter",
+    "genre": "",
+    "view_count": 329740848,
+    "likes": 3043488,
+    "release_date": "20240412",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "c420f79b-8a4a-4052-aa61-569fcac4e217",
+    "title": "Sabrina Carpenter - Please Please Please (Official Video)",
+    "artist": "Sabrina Carpenter",
+    "genre": "",
+    "view_count": 193866482,
+    "likes": 2325334,
+    "release_date": "20240607",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "ac7445d6-a1b3-4fa4-9a69-5ff7fce1713b",
+    "title": "Sabrina Carpenter - Taste (Official Video)",
+    "artist": "Sabrina Carpenter",
+    "genre": "",
+    "view_count": 156920327,
+    "likes": 2987268,
+    "release_date": "20240823",
+    "valence": 6.5552659034729,
+    "arousal": 7.112798690795898,
+    "predicted_moods": [
+      {
+        "mood": "energetic",
+        "score": 0.8881
+      },
+      {
+        "mood": "funny",
+        "score": 0.8853
+      },
+      {
+        "mood": "love",
+        "score": 0.8612
+      },
+      {
+        "mood": "happy",
+        "score": 0.8298
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7869
+      },
+      {
+        "mood": "fun",
+        "score": 0.7731
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7604
+      },
+      {
+        "mood": "sport",
+        "score": 0.7308
+      },
+      {
+        "mood": "party",
+        "score": 0.7301
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7198
+      },
+      {
+        "mood": "fast",
+        "score": 0.6894
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6043
+      }
+    ]
+  },
+  {
+    "id": "f1949147-b781-4a99-90f8-df4dcf49abe4",
+    "title": "Sam Smith - I'm Not The Only One (Official Music Video)",
+    "artist": "SAM SMITH",
+    "genre": "",
+    "view_count": 1754103438,
+    "likes": 7033125,
+    "release_date": "20140801",
+    "valence": 4.841717720031738,
+    "arousal": 5.008059501647949,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9052
+      },
+      {
+        "mood": "ballad",
+        "score": 0.8449
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6962
+      },
+      {
+        "mood": "romantic",
+        "score": 0.6661
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5555
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5423
+      },
+      {
+        "mood": "emotional",
+        "score": 0.5205
+      },
+      {
+        "mood": "dark",
+        "score": 0.52
+      },
+      {
+        "mood": "travel",
+        "score": 0.5194
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5192
+      }
+    ]
+  },
+  {
+    "id": "187ff751-4ba9-4205-a57e-c3acc1659eac",
+    "title": "Sam Smith - Stay With Me (Official Music Video)",
+    "artist": "SAM SMITH",
+    "genre": "",
+    "view_count": 1228148381,
+    "likes": 5681478,
+    "release_date": "20140328",
+    "valence": 4.812764644622803,
+    "arousal": 5.20368766784668,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8335
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6714
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6516
+      },
+      {
+        "mood": "dark",
+        "score": 0.586
+      },
+      {
+        "mood": "sad",
+        "score": 0.5697
+      }
+    ]
+  },
+  {
+    "id": "33dec46c-d085-493e-8371-7a038993102f",
+    "title": "Sam Smith - Too Good At Goodbyes",
+    "artist": "SAM SMITH",
+    "genre": "",
+    "view_count": 1524769888,
+    "likes": 7318262,
+    "release_date": "20170918",
+    "valence": 5.091172218322754,
+    "arousal": 5.039608001708984,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8942
+      },
+      {
+        "mood": "ballad",
+        "score": 0.7579
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.7188
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6782
+      },
+      {
+        "mood": "sad",
+        "score": 0.6236
+      }
+    ]
+  },
+  {
+    "id": "37826b7e-fd0a-43b7-b343-1409c88248d2",
+    "title": "Sam Smith, Kim Petras - Unholy (Official Music Video)",
+    "artist": "SAM SMITH",
+    "genre": "",
+    "view_count": 276115402,
+    "likes": 3425416,
+    "release_date": "20220930",
+    "valence": 4.343298435211182,
+    "arousal": 5.3599066734313965,
+    "predicted_moods": [
+      {
+        "mood": "dark",
+        "score": 0.8604
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7529
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6004
+      },
+      {
+        "mood": "love",
+        "score": 0.5759
+      }
+    ]
+  },
+  {
+    "id": "3e553d35-6907-4d4a-9a85-64aa71704a2f",
+    "title": "Sean Paul - No Lie ft. Dua Lipa",
+    "artist": "Sean Paul",
+    "genre": "",
+    "view_count": 1354615994,
+    "likes": 8103152,
+    "release_date": "20170110",
+    "valence": 6.684728145599365,
+    "arousal": 6.707484722137451,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9225
+      },
+      {
+        "mood": "summer",
+        "score": 0.9187
+      },
+      {
+        "mood": "happy",
+        "score": 0.917
+      },
+      {
+        "mood": "sexy",
+        "score": 0.9048
+      },
+      {
+        "mood": "party",
+        "score": 0.8899
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.863
+      },
+      {
+        "mood": "deep",
+        "score": 0.8475
+      },
+      {
+        "mood": "sport",
+        "score": 0.8152
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7938
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7913
+      },
+      {
+        "mood": "love",
+        "score": 0.7585
+      },
+      {
+        "mood": "fun",
+        "score": 0.6708
+      },
+      {
+        "mood": "positive",
+        "score": 0.5471
+      }
+    ]
+  },
+  {
+    "id": "c2a796bd-7f1e-4964-b881-568fc247103f",
+    "title": "Shakira - Can't Remember to Forget You (Official Video) ft. Rihanna",
+    "artist": "Shakira",
+    "genre": "",
+    "view_count": 1364031407,
+    "likes": 6918450,
+    "release_date": "20140131",
+    "valence": 7.19660758972168,
+    "arousal": 7.644865989685059,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9045
+      },
+      {
+        "mood": "fun",
+        "score": 0.8869
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8636
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8565
+      },
+      {
+        "mood": "happy",
+        "score": 0.7895
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7629
+      },
+      {
+        "mood": "fast",
+        "score": 0.7448
+      },
+      {
+        "mood": "funny",
+        "score": 0.7357
+      },
+      {
+        "mood": "party",
+        "score": 0.7293
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7206
+      },
+      {
+        "mood": "powerful",
+        "score": 0.6148
+      },
+      {
+        "mood": "positive",
+        "score": 0.5912
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5628
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5538
+      },
+      {
+        "mood": "sport",
+        "score": 0.523
+      }
+    ]
+  },
+  {
+    "id": "840be109-5441-4713-8364-01486851ac7f",
+    "title": "Shakira - Hips Don't Lie (Official 4K Video) ft. Wyclef Jean",
+    "artist": "Shakira",
+    "genre": "",
+    "view_count": 1544378890,
+    "likes": 7957114,
+    "release_date": "20091003",
+    "valence": 5.901406764984131,
+    "arousal": 5.807537078857422,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8374
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8057
+      },
+      {
+        "mood": "happy",
+        "score": 0.7689
+      },
+      {
+        "mood": "funny",
+        "score": 0.7546
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7494
+      },
+      {
+        "mood": "party",
+        "score": 0.697
+      },
+      {
+        "mood": "fun",
+        "score": 0.6863
+      },
+      {
+        "mood": "summer",
+        "score": 0.6128
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5839
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5786
+      }
+    ]
+  },
+  {
+    "id": "a8c44e54-7e82-4713-9431-cdd9917957f6",
+    "title": "Shawn Mendes - Stitches (Official Music Video)",
+    "artist": "Shawn Mendes",
+    "genre": "",
+    "view_count": 1630539574,
+    "likes": 11719414,
+    "release_date": "20150625",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "5b9e0d4a-c038-4341-b53e-9d2883c41bdb",
+    "title": "Shawn Mendes - There's Nothing Holdin' Me Back (Official Music Video)",
+    "artist": "Shawn Mendes",
+    "genre": "",
+    "view_count": 1319758172,
+    "likes": 9701825,
+    "release_date": "20170621",
+    "valence": 6.537569522857666,
+    "arousal": 6.793187141418457,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8782
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8513
+      },
+      {
+        "mood": "party",
+        "score": 0.8078
+      },
+      {
+        "mood": "happy",
+        "score": 0.8037
+      },
+      {
+        "mood": "fun",
+        "score": 0.799
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7771
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7747
+      },
+      {
+        "mood": "funny",
+        "score": 0.7579
+      },
+      {
+        "mood": "fast",
+        "score": 0.6286
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6001
+      },
+      {
+        "mood": "retro",
+        "score": 0.5083
+      }
+    ]
+  },
+  {
+    "id": "960909b3-ee38-46d9-b1bc-f0ecc1000f74",
+    "title": "Shawn Mendes - Treat You Better",
+    "artist": "Shawn Mendes",
+    "genre": "",
+    "view_count": 2503658795,
+    "likes": 11854795,
+    "release_date": "20160712",
+    "valence": 5.343520641326904,
+    "arousal": 5.054080963134766,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9049
+      },
+      {
+        "mood": "ballad",
+        "score": 0.7708
+      },
+      {
+        "mood": "travel",
+        "score": 0.692
+      },
+      {
+        "mood": "sexy",
+        "score": 0.5923
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.5858
+      },
+      {
+        "mood": "soft",
+        "score": 0.5832
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5508
+      },
+      {
+        "mood": "dark",
+        "score": 0.5502
+      },
+      {
+        "mood": "dream",
+        "score": 0.5358
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5266
+      },
+      {
+        "mood": "romantic",
+        "score": 0.5017
+      }
+    ]
+  },
+  {
+    "id": "890a347e-9a4e-4bff-843a-1fc1707a37d3",
+    "title": "Shawn Mendes, Camila Cabello - Se\u00f1orita",
+    "artist": "Shawn Mendes",
+    "genre": "",
+    "view_count": 1767799059,
+    "likes": 21148795,
+    "release_date": "20190621",
+    "valence": 7.5661702156066895,
+    "arousal": 7.813684940338135,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9412
+      },
+      {
+        "mood": "happy",
+        "score": 0.9241
+      },
+      {
+        "mood": "fun",
+        "score": 0.8762
+      },
+      {
+        "mood": "party",
+        "score": 0.8666
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8485
+      },
+      {
+        "mood": "love",
+        "score": 0.8383
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8323
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8223
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7159
+      },
+      {
+        "mood": "holiday",
+        "score": 0.713
+      },
+      {
+        "mood": "sport",
+        "score": 0.6703
+      },
+      {
+        "mood": "summer",
+        "score": 0.66
+      }
+    ]
+  },
+  {
+    "id": "86a5a5f5-b108-48bc-9ca7-cf3662631f58",
+    "title": "Sia - Chandelier (Official Video)",
+    "artist": "Sia",
+    "genre": "",
+    "view_count": 2796953183,
+    "likes": 13455460,
+    "release_date": "20140506",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "fcb26ea8-587c-404e-9c80-0721854b0c21",
+    "title": "Sia - Cheap Thrills (Performance Edit)",
+    "artist": "Sia",
+    "genre": "",
+    "view_count": 1104413881,
+    "likes": 6984806,
+    "release_date": "20160321",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "ad4d27e8-e9ee-4b06-9e16-fd96a93e16aa",
+    "title": "Sia - Elastic Heart feat. Shia LaBeouf & Maddie Ziegler (Official Video)",
+    "artist": "Sia",
+    "genre": "",
+    "view_count": 1361536056,
+    "likes": 5674038,
+    "release_date": "20150107",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "4ef1352b-c5f5-4ebb-ae33-90ee4443d19b",
+    "title": "southstar - Headbanger (Official Video)",
+    "artist": "Southstar",
+    "genre": "",
+    "view_count": 183616,
+    "likes": 2687,
+    "release_date": "20250123",
+    "valence": 6.699530124664307,
+    "arousal": 6.681563377380371,
+    "predicted_moods": [
+      {
+        "mood": "party",
+        "score": 0.8458
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8155
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8108
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7325
+      },
+      {
+        "mood": "sport",
+        "score": 0.7277
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6984
+      },
+      {
+        "mood": "love",
+        "score": 0.6512
+      },
+      {
+        "mood": "summer",
+        "score": 0.6488
+      },
+      {
+        "mood": "funny",
+        "score": 0.6382
+      },
+      {
+        "mood": "happy",
+        "score": 0.5981
+      },
+      {
+        "mood": "fast",
+        "score": 0.5948
+      },
+      {
+        "mood": "fun",
+        "score": 0.5502
+      }
+    ]
+  },
+  {
+    "id": "3f14d533-67b0-419c-be0e-e0a661578aeb",
+    "title": "Strangers in the Dark",
+    "artist": "The Council Of Thirteen",
+    "genre": "",
+    "view_count": 17889,
+    "likes": 19,
+    "release_date": "20241221",
+    "valence": 6.808566570281982,
+    "arousal": 5.848684310913086,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9195
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.8941
+      },
+      {
+        "mood": "ballad",
+        "score": 0.8714
+      },
+      {
+        "mood": "groovy",
+        "score": 0.803
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7851
+      },
+      {
+        "mood": "motivational",
+        "score": 0.7107
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7038
+      },
+      {
+        "mood": "sad",
+        "score": 0.7033
+      },
+      {
+        "mood": "emotional",
+        "score": 0.6935
+      },
+      {
+        "mood": "sport",
+        "score": 0.6928
+      },
+      {
+        "mood": "dark",
+        "score": 0.6661
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6591
+      },
+      {
+        "mood": "melodic",
+        "score": 0.6544
+      },
+      {
+        "mood": "uplifting",
+        "score": 0.5896
+      },
+      {
+        "mood": "romantic",
+        "score": 0.568
+      }
+    ]
+  },
+  {
+    "id": "01c735f5-5251-4c47-b6b3-05fff9934044",
+    "title": "Sub Urban - UH OH! (feat. BENEE) [Official Music Video]",
+    "artist": "Sub Urban",
+    "genre": "",
+    "view_count": 251189166,
+    "likes": 1695471,
+    "release_date": "20220422",
+    "valence": 5.574860095977783,
+    "arousal": 5.853751182556152,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.8224
+      },
+      {
+        "mood": "love",
+        "score": 0.7713
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7586
+      },
+      {
+        "mood": "happy",
+        "score": 0.7135
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6767
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6402
+      },
+      {
+        "mood": "summer",
+        "score": 0.6107
+      },
+      {
+        "mood": "dark",
+        "score": 0.5599
+      },
+      {
+        "mood": "fun",
+        "score": 0.5455
+      },
+      {
+        "mood": "sport",
+        "score": 0.5058
+      }
+    ]
+  },
+  {
+    "id": "06cbaa1a-924b-4315-af6a-dc94a0e49359",
+    "title": "Tate McRae - greedy (Official Video)",
+    "artist": "Tate McRae",
+    "genre": "",
+    "view_count": 192688312,
+    "likes": 1531490,
+    "release_date": "20230915",
+    "valence": 5.78540563583374,
+    "arousal": 5.865801811218262,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8148
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7907
+      },
+      {
+        "mood": "funny",
+        "score": 0.7474
+      },
+      {
+        "mood": "happy",
+        "score": 0.7043
+      },
+      {
+        "mood": "party",
+        "score": 0.68
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6549
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6359
+      },
+      {
+        "mood": "summer",
+        "score": 0.6348
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6304
+      },
+      {
+        "mood": "sport",
+        "score": 0.59
+      },
+      {
+        "mood": "deep",
+        "score": 0.5644
+      },
+      {
+        "mood": "fun",
+        "score": 0.5359
+      }
+    ]
+  },
+  {
+    "id": "65cfa64d-d592-403f-ab91-014873d46e77",
+    "title": "Taylor Swift - Bad Blood ft. Kendrick Lamar",
+    "artist": "Taylor Swift",
+    "genre": "",
+    "view_count": 1648189163,
+    "likes": 10232809,
+    "release_date": "20150518",
+    "valence": 6.458980083465576,
+    "arousal": 6.627407550811768,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.9509
+      },
+      {
+        "mood": "sexy",
+        "score": 0.9096
+      },
+      {
+        "mood": "happy",
+        "score": 0.8991
+      },
+      {
+        "mood": "summer",
+        "score": 0.8963
+      },
+      {
+        "mood": "party",
+        "score": 0.8547
+      },
+      {
+        "mood": "love",
+        "score": 0.8154
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7809
+      },
+      {
+        "mood": "energetic",
+        "score": 0.746
+      },
+      {
+        "mood": "fun",
+        "score": 0.7422
+      },
+      {
+        "mood": "deep",
+        "score": 0.6639
+      },
+      {
+        "mood": "sport",
+        "score": 0.6465
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6426
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": "4ad2bedb-05ab-4821-8119-d1af4a976797",
+    "title": "Taylor Swift - Blank Space",
+    "artist": "Taylor Swift",
+    "genre": "",
+    "view_count": 3591627327,
+    "likes": 16072212,
+    "release_date": "20141110",
+    "valence": 4.838334083557129,
+    "arousal": 5.381721019744873,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8573
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7901
+      },
+      {
+        "mood": "fun",
+        "score": 0.7603
+      },
+      {
+        "mood": "funny",
+        "score": 0.7543
+      },
+      {
+        "mood": "happy",
+        "score": 0.7328
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7235
+      },
+      {
+        "mood": "dark",
+        "score": 0.6137
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6002
+      },
+      {
+        "mood": "party",
+        "score": 0.5733
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5606
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.557
+      }
+    ]
+  },
+  {
+    "id": "b1db0f20-7446-452b-aa4f-7b69a1814ea9",
+    "title": "Taylor Swift - Fortnight (feat. Post Malone) (Official Music Video)",
+    "artist": "Taylor Swift",
+    "genre": "",
+    "view_count": 137889793,
+    "likes": 2055391,
+    "release_date": "20240420",
+    "valence": 6.087425708770752,
+    "arousal": 6.091268539428711,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8793
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7463
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7122
+      },
+      {
+        "mood": "funny",
+        "score": 0.6035
+      },
+      {
+        "mood": "dark",
+        "score": 0.5981
+      },
+      {
+        "mood": "happy",
+        "score": 0.575
+      },
+      {
+        "mood": "fun",
+        "score": 0.5595
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5126
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.5085
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5055
+      }
+    ]
+  },
+  {
+    "id": "10ff4ca8-d61e-4dbd-a1ae-fd156bea835b",
+    "title": "Taylor Swift - Look What You Made Me Do",
+    "artist": "Taylor Swift",
+    "genre": "",
+    "view_count": 1524598851,
+    "likes": 13591859,
+    "release_date": "20170828",
+    "valence": 5.512125015258789,
+    "arousal": 5.759196758270264,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8755
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7563
+      },
+      {
+        "mood": "funny",
+        "score": 0.7366
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6526
+      },
+      {
+        "mood": "happy",
+        "score": 0.6173
+      },
+      {
+        "mood": "holiday",
+        "score": 0.6028
+      },
+      {
+        "mood": "fun",
+        "score": 0.5928
+      },
+      {
+        "mood": "dark",
+        "score": 0.5619
+      }
+    ]
+  },
+  {
+    "id": "523d847a-b4b8-45dc-8d9f-46d89d359333",
+    "title": "Taylor Swift - You Belong With Me",
+    "artist": "Taylor Swift",
+    "genre": "",
+    "view_count": 1665779718,
+    "likes": 10431680,
+    "release_date": "20090616",
+    "valence": 6.963150501251221,
+    "arousal": 6.509862899780273,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8793
+      },
+      {
+        "mood": "fun",
+        "score": 0.8604
+      },
+      {
+        "mood": "funny",
+        "score": 0.8507
+      },
+      {
+        "mood": "energetic",
+        "score": 0.8462
+      },
+      {
+        "mood": "holiday",
+        "score": 0.8033
+      },
+      {
+        "mood": "happy",
+        "score": 0.778
+      },
+      {
+        "mood": "sexy",
+        "score": 0.6864
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6796
+      },
+      {
+        "mood": "fast",
+        "score": 0.6657
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6554
+      },
+      {
+        "mood": "party",
+        "score": 0.6106
+      },
+      {
+        "mood": "christmas",
+        "score": 0.6064
+      },
+      {
+        "mood": "travel",
+        "score": 0.5703
+      }
+    ]
+  },
+  {
+    "id": "9ff3aa0e-9a3a-44a9-9741-058e354d7ef0",
+    "title": "The Chainsmokers - Closer (Lyric) ft. Halsey",
+    "artist": "The Chainsmokers",
+    "genre": "",
+    "view_count": 3192770757,
+    "likes": 14421220,
+    "release_date": "20160729",
+    "valence": 6.984752178192139,
+    "arousal": 7.165085792541504,
+    "predicted_moods": [
+      {
+        "mood": "funny",
+        "score": 0.881
+      },
+      {
+        "mood": "happy",
+        "score": 0.8247
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.8227
+      },
+      {
+        "mood": "party",
+        "score": 0.8186
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8106
+      },
+      {
+        "mood": "love",
+        "score": 0.7975
+      },
+      {
+        "mood": "summer",
+        "score": 0.7466
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7285
+      },
+      {
+        "mood": "fun",
+        "score": 0.711
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6669
+      },
+      {
+        "mood": "sport",
+        "score": 0.6509
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5083
+      }
+    ]
+  },
+  {
+    "id": "9488e3cb-0395-44b0-aaf1-3663870198a7",
+    "title": "The Kid LAROI, Justin Bieber - STAY (Official Video)",
+    "artist": "The Kid LAROI.",
+    "genre": "",
+    "view_count": 987828415,
+    "likes": 11893250,
+    "release_date": "20210709",
+    "valence": 5.799182891845703,
+    "arousal": 5.737540245056152,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8816
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7989
+      },
+      {
+        "mood": "sexy",
+        "score": 0.733
+      },
+      {
+        "mood": "happy",
+        "score": 0.7208
+      },
+      {
+        "mood": "funny",
+        "score": 0.7131
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.6519
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6185
+      },
+      {
+        "mood": "fun",
+        "score": 0.5614
+      },
+      {
+        "mood": "summer",
+        "score": 0.5332
+      },
+      {
+        "mood": "hopeful",
+        "score": 0.523
+      },
+      {
+        "mood": "party",
+        "score": 0.5192
+      },
+      {
+        "mood": "sport",
+        "score": 0.5066
+      }
+    ]
+  },
+  {
+    "id": "81604978-263f-4558-bf9b-f8f15f8cef48",
+    "title": "The Weeknd - Save Your Tears (Official Music Video)",
+    "artist": "The Weeknd",
+    "genre": "",
+    "view_count": 1850046304,
+    "likes": 10036219,
+    "release_date": "20210105",
+    "valence": 4.057743549346924,
+    "arousal": 4.5995564460754395,
+    "predicted_moods": [
+      {
+        "mood": "dark",
+        "score": 0.7878
+      },
+      {
+        "mood": "space",
+        "score": 0.644
+      },
+      {
+        "mood": "deep",
+        "score": 0.6244
+      },
+      {
+        "mood": "travel",
+        "score": 0.6098
+      },
+      {
+        "mood": "meditative",
+        "score": 0.6032
+      },
+      {
+        "mood": "dream",
+        "score": 0.5975
+      },
+      {
+        "mood": "soundscape",
+        "score": 0.593
+      }
+    ]
+  },
+  {
+    "id": "40240804-fa56-4380-8fe2-e6c3d8d60241",
+    "title": "TOESUP, Smiley - Two Feet (Official Visualizer)",
+    "artist": "TOESUP",
+    "genre": "",
+    "view_count": 1632836,
+    "likes": 2787,
+    "release_date": "20240709",
+    "valence": 6.070866107940674,
+    "arousal": 6.396963119506836,
+    "predicted_moods": [
+      {
+        "mood": "sexy",
+        "score": 0.8543
+      },
+      {
+        "mood": "love",
+        "score": 0.8394
+      },
+      {
+        "mood": "funny",
+        "score": 0.8104
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7658
+      },
+      {
+        "mood": "party",
+        "score": 0.7577
+      },
+      {
+        "mood": "happy",
+        "score": 0.7284
+      },
+      {
+        "mood": "groovy",
+        "score": 0.7254
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7108
+      },
+      {
+        "mood": "fun",
+        "score": 0.6585
+      },
+      {
+        "mood": "sport",
+        "score": 0.6359
+      },
+      {
+        "mood": "summer",
+        "score": 0.5643
+      }
+    ]
+  },
+  {
+    "id": "30261081-b7d7-41b2-b147-485811e0675d",
+    "title": "Tom Odell - Another Love (Official Video)",
+    "artist": "Tom Odell",
+    "genre": "",
+    "view_count": 1046731610,
+    "likes": 9281685,
+    "release_date": "20121105",
+    "valence": 6.326094150543213,
+    "arousal": 6.750816822052002,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9159
+      },
+      {
+        "mood": "funny",
+        "score": 0.7588
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7007
+      },
+      {
+        "mood": "happy",
+        "score": 0.5984
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.5939
+      },
+      {
+        "mood": "groovy",
+        "score": 0.5765
+      },
+      {
+        "mood": "fun",
+        "score": 0.5736
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5593
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5561
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5011
+      }
+    ]
+  },
+  {
+    "id": "a07639f4-c815-440a-a5a1-613ab516c1f8",
+    "title": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO)",
+    "artist": "Tones And I",
+    "genre": "",
+    "view_count": 2210920843,
+    "likes": 16050013,
+    "release_date": "20190624",
+    "valence": 5.888274669647217,
+    "arousal": 6.191153049468994,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8646
+      },
+      {
+        "mood": "funny",
+        "score": 0.8522
+      },
+      {
+        "mood": "holiday",
+        "score": 0.8136
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7787
+      },
+      {
+        "mood": "christmas",
+        "score": 0.7121
+      },
+      {
+        "mood": "happy",
+        "score": 0.7016
+      },
+      {
+        "mood": "energetic",
+        "score": 0.6428
+      },
+      {
+        "mood": "summer",
+        "score": 0.6206
+      },
+      {
+        "mood": "party",
+        "score": 0.5892
+      },
+      {
+        "mood": "fun",
+        "score": 0.579
+      }
+    ]
+  },
+  {
+    "id": "21740f8c-68a8-4e8e-bea4-672a3ea39765",
+    "title": "Tyla - PUSH 2 START (Live Performance in South Africa 2024)",
+    "artist": "Tyla",
+    "genre": "",
+    "view_count": 1399757,
+    "likes": 28343,
+    "release_date": "20241227",
+    "valence": null,
+    "arousal": null,
+    "predicted_moods": []
+  },
+  {
+    "id": "e4d669e8-b349-4e06-ad90-687dd398a177",
+    "title": "ZAYN - Dusk Till Dawn (Official Video) ft. Sia",
+    "artist": "zayn",
+    "genre": "",
+    "view_count": 2243983428,
+    "likes": 15520781,
+    "release_date": "20170907",
+    "valence": 4.950520992279053,
+    "arousal": 5.908878326416016,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8096
+      },
+      {
+        "mood": "dark",
+        "score": 0.7533
+      },
+      {
+        "mood": "melancholic",
+        "score": 0.6307
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5992
+      },
+      {
+        "mood": "travel",
+        "score": 0.5274
+      },
+      {
+        "mood": "sad",
+        "score": 0.5234
+      }
+    ]
+  },
+  {
+    "id": "50a7e1f2-6066-4bf4-982b-9a89e2e0ab71",
+    "title": "ZAYN - PILLOWTALK (Official Video)",
+    "artist": "zayn",
+    "genre": "",
+    "view_count": 1234586011,
+    "likes": 9073160,
+    "release_date": "20160129",
+    "valence": 5.677651882171631,
+    "arousal": 5.675434112548828,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.8142
+      },
+      {
+        "mood": "sexy",
+        "score": 0.7577
+      },
+      {
+        "mood": "funny",
+        "score": 0.7152
+      },
+      {
+        "mood": "happy",
+        "score": 0.6388
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6162
+      },
+      {
+        "mood": "summer",
+        "score": 0.5576
+      },
+      {
+        "mood": "dark",
+        "score": 0.5465
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5345
+      },
+      {
+        "mood": "christmas",
+        "score": 0.5231
+      },
+      {
+        "mood": "sad",
+        "score": 0.5084
+      },
+      {
+        "mood": "energetic",
+        "score": 0.5062
+      }
+    ]
+  },
+  {
+    "id": "b9a61b84-0c12-4f01-b697-e8999191cc5c",
+    "title": "Fake Friends by Julia Kate Official Music Video",
+    "artist": "Julia Kate",
+    "genre": "",
+    "view_count": 62038,
+    "likes": 151,
+    "release_date": "20250124",
+    "valence": 6.817898273468018,
+    "arousal": 7.048262596130371,
+    "predicted_moods": [
+      {
+        "mood": "love",
+        "score": 0.9093
+      },
+      {
+        "mood": "funny",
+        "score": 0.9043
+      },
+      {
+        "mood": "sexy",
+        "score": 0.8237
+      },
+      {
+        "mood": "upbeat",
+        "score": 0.7849
+      },
+      {
+        "mood": "happy",
+        "score": 0.7743
+      },
+      {
+        "mood": "energetic",
+        "score": 0.7156
+      },
+      {
+        "mood": "party",
+        "score": 0.6699
+      },
+      {
+        "mood": "fun",
+        "score": 0.6563
+      },
+      {
+        "mood": "groovy",
+        "score": 0.6293
+      },
+      {
+        "mood": "summer",
+        "score": 0.5865
+      },
+      {
+        "mood": "melodic",
+        "score": 0.5345
+      },
+      {
+        "mood": "holiday",
+        "score": 0.5293
+      },
+      {
+        "mood": "sport",
+        "score": 0.5223
+      }
+    ]
+  }
+]
