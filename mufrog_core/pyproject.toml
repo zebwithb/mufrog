@@ -180,3 +180,6 @@ explicit = true
 name = "vllm-nightly"
 url = "https://wheels.vllm.ai/nightly"
 explicit = true
+
+[tool.uv.workspace]
+members = ["api", "mufrog_core"]

@@ -1,17 +1,16 @@
 #local
 .venv/
 .vscode/
-src/TODO.md
-archive/
-scripts/songs/mp3/
-src/analyzed_output/
-src/mufrog.egg-info/
+mufrog_core/src/TODO.md
+mufrog_core/scripts/songs/mp3/
+mufrog_core/src/analyzed_output/
+mufrog_core/src/mufrog.egg-info/
 #external
-src/scripts/songs/
-src/temp_out/
+mufrog_core/src/scripts/songs/
+mufrog_coresrc/temp_out/
 Music2Emotion/temp_out/
 #pylint analysis
-src/pylint2.txt
-src/pylint1.txt
-src/standard.rc
+mufrog_core/src/pylint2.txt
+mufrog_core/src/pylint1.txt
+mufrog_core/src/standard.rc
 

@@ -3,14 +3,18 @@ from pydantic import BaseModel
 from typing import List
 import torch
 
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, BitsAndBytesConfig, Gemma3ForCausalLM
 
 class ModelConfig(BaseModel):
     model_name: str = "google/gemma-3-1b-it"
 
 def load_model(config: ModelConfig):
+    quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+    model = Gemma3ForCausalLM.from_pretrained(
+        config.model_name,
+        quantization_config=quantization_config
+    ).eval()
     tokenizer = AutoTokenizer.from_pretrained(config.model_name)
-    model = AutoModelForCausalLM.from_pretrained(config.model_name)
     return tokenizer, model
 
 config = ModelConfig()
@@ -59,11 +63,14 @@ def load_emotions(json_path: str) -> List[EmotionEntry]:
         data = json.load(f)
     return [EmotionEntry(**item) for item in data]
 
-def find_closest_emotions(classified: List[str], emotion_db: List[EmotionEntry], top_k=5) -> List[EmotionEntry]:
-    # Simple matching based on string similarity
+def find_closest_emotions(classified: dict, emotion_db: List[EmotionEntry], top_k=5) -> List[EmotionEntry]:
+    # Matching based on weighted mood score overlap
     matches = []
     for entry in emotion_db:
-        score = sum(1 for e in classified if e.lower() in entry.emotion.lower())
+        score = 0.0
+        for mood, mood_score in classified.items():
+            if mood.lower() in entry.emotion.lower():
+                score += mood_score
         if score > 0:
             matches.append((score, entry))
     matches.sort(reverse=True, key=lambda x: x[0])
