@@ -5,6 +5,7 @@ import torch
 from transformers import AutoTokenizer, BitsAndBytesConfig, Gemma3ForCausalLM
 from langchain.output_parsers import PydanticOutputParser
 from langchain_core.prompts import PromptTemplate
+from collections import defaultdict
 
 class ModelConfig(BaseModel):
     model_name: str = "google/gemma-3-1b-it"
@@ -24,14 +25,18 @@ tokenizer, model = load_model(config)
 
 MOOD_KEYS = ['adventure', 'ballad', 'christmas', 'commercial', 'dark', 'deep', 'drama', 'dramatic', 'dream', 'emotional', 'energetic', 'fast', 'fun', 'funny', 'game', 'groovy', 'happy', 'holiday', 'hopeful', 'love', 'meditative', 'melancholic', 'melodic', 'motivational', 'party', 'positive', 'powerful', 'retro', 'romantic', 'sad', 'sexy', 'slow', 'soft', 'soundscape', 'space', 'sport', 'summer', 'travel', 'upbeat', 'uplifting']
 
-class EmotionEntry(BaseModel):
-    emotion: str
-    songs: List[str]
-    predicted_moods: Dict[str, float]
-
 class PromptEmotionPrediction(BaseModel):
     prompt: str = Field(description="prompt to analyse")
-    predicted_moods: Dict[str, float] = Field(description=" mood scores to predict, values are float between 0.0 and 1.0")
+    predicted_moods: List[Dict[str, float]] = Field(description="list of mood-score dicts")
+    valence: float = Field(description="valence score between 0.0 and 1.0")
+    arousal: float = Field(description="arousal score between 0.0 and 1.0")
+    
+class EmotionEntry(BaseModel):
+    id: str = Field(description="song id")
+    title: str = Field(description="song title")
+    valence: float = Field(description="valence score between 0.0 and 1.0")
+    arousal: float = Field(description="arousal score between 0.0 and 1.0")
+    predicted_moods: List[Dict[str, float]] = Field(description="list of mood-score dicts")
 
 def classify_emotions(query: str, moods=MOOD_KEYS) -> Dict[str, float]:
     parser = PydanticOutputParser(pydantic_object=PromptEmotionPrediction)
@@ -40,14 +45,13 @@ def classify_emotions(query: str, moods=MOOD_KEYS) -> Dict[str, float]:
         "<start_of_turn>user\n"
         "You are an expert music mood classifier.\n"
         "Given the user prompt below, respond ONLY with a JSON object.\n"
-        "The JSON must have two keys:\n"
+        "The JSON must have four keys:\n"
         "  'prompt': the original user prompt as a string\n"
-        "  'predicted_moods': a dictionary with these moods as keys:\n"
-        f"{MOOD_KEYS}\n"
-        "Each mood key MUST have a float value between 0.0 and 1.0.\n"
-        "Do NOT include any explanation or schema.\n"
+        "  'predicted_moods': a list of objects, each with 'mood' (string) and 'score' (float between 0.0 and 1.0)\n"
+        "  'valence': a float between 0.0 and 1.0\n"
+        "  'arousal': a float between 0.0 and 1.0\n"
         "Example:\n"
-        '{"prompt": "I want a happy song", "predicted_moods": {"happy": 0.9, "sad": 0.1, ...}}\n'
+        '{"prompt": "I want a happy song", "predicted_moods": [{"mood": "happy", "score": 0.9}, {"mood": "sad", "score": 0.1}], "valence": 0.8, "arousal": 0.7}\n'
         "User prompt: {query}\n"
         "<end_of_turn>\n"
         "<start_of_turn>model\n"
@@ -69,26 +73,38 @@ def classify_emotions(query: str, moods=MOOD_KEYS) -> Dict[str, float]:
     parsed = parser.parse(response)
     prediction = PromptEmotionPrediction(prompt=query, predicted_moods=parsed["predicted_moods"])
     
+    print(f"Parsed prediction: {prediction}")
+    if not prediction.predicted_moods:
+        print("No predicted moods found.")
+        return {}
+    
     return prediction.predicted_moods
 
-def load_emotions(json_path: str) -> List[EmotionEntry]:
+def load_emotions(json_path: str):
+    entries = []
+    
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    entries = []
-    for item in data:
-        predicted = item.get("predicted_moods") or {}
-        if not isinstance(predicted, dict):
-            predicted = {}
-        entries.append(
-            EmotionEntry(
-                emotion=item.get("emotion", ""),
-                songs=item.get("songs", []),
-                predicted_moods=predicted,
-            )
-        )
-    return entries
 
-def find_closest_emotions(classified: Dict[str, float], emotion_db: List[EmotionEntry], top_k=5) -> List[EmotionEntry]:
+    for item in data:
+        song_id = item.get("id")
+        if not song_id:
+            continue
+        if not item.get("predicted_moods"):
+            continue
+        entries.append(EmotionEntry(
+            id=song_id,
+            title=item.get("title"),
+            valence=item.get("valence"),
+            arousal=item.get("arousal"),
+            predicted_moods=item.get("predicted_moods", [])
+        ))
+        
+    print(f"Loaded {len(entries)} emotion entries from {json_path}.")
+    return entries
+        
+
+def find_closest_emotions(classified: Dict[str, float], emotion_db: List[EmotionEntry], top_k=5) -> List[EmotionEntry]: 
     matches = []
     for entry in emotion_db:
         if not entry.predicted_moods:
